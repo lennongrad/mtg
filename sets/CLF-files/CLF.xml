@@ -1,0 +1,1757 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>CLF</name>
+			<longname>Commander Legends: Fire Emblem</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-28</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name></name>
+			<text></text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/0.png" num="1">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CW01 Florina, Anxious Cavalier</name>
+			<text>Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/1.png" num="2">CLF</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW03 Calill, Narcissist Sage // Nihil</name>
+			<text>---
+
+Counter target noncreature spell unless its controller pays {1}. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/2.png" num="4">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock // Instant — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>1W // W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW04</name>
+			<text>Whenever this creature attacks, put a +1/+1 counter on target attacking creature you control with flying.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/3.png" num="5">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW05 Unceasing Bonewalker</name>
+			<text>This creature gets +1/+2 and has vigilance as long as it&apos;s equipped or enchanted.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/4.png" num="6">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW06 Karin and Hermes</name>
+			<text>Flying
+Follow up (Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that&apos;s tapped and attacking. Sacrifice the token at end of turn.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/5.png" num="7">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pegasus Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW07 Amelia, Silva Orphan</name>
+			<text>When Amelia enters, if an opponent controls more lands than you, search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.
+Follow up (Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that&apos;s tapped and attacking. Sacrifice the token at end of turn.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/6.png" num="8">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW08 Bors, of Great Resolve</name>
+			<text>Equipped creatures you control get +1/+1.
+Armory (If this is your commander, you can have a Weapon as a second commander.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/7.png" num="9">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW09</name>
+			<text>Whenever a creature you control enters or dies, you gain 1 life. If this is the second time this ability has resolved this turn, put a +1/+1 counter on this creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/8.png" num="10">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW10 // </name>
+			<text>Whenever this creature enters or attacks, exile target card from a graveyard.
+
+---
+
+Untap target creature. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/9.png" num="11">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>3W // W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW11 Shanna, Cheerful Flier</name>
+			<text>Flying
+When Shanna enters, create a blue 2/2 Pegasus Knight creature token with flying, then you seize the objective.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/10.png" num="12">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pegasus Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW12 Sakura, Timid Princess // Miracle</name>
+			<text>Flying, lifelink
+
+---
+
+Target creature gains protection from the color of your choice until end of turn. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/11.png" num="13">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pegasus Noble // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>5W // W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW13 Alois, Right-Hand Man // Helm Splitter</name>
+			<text>Alois has first strike as long as he&apos;s equipped.
+
+---
+
+Destroy target tapped creature or artifact. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/12.png" num="14">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>2W // 3W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW14 Prison Term</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t attack or block. It loses all abilities and has &quot;Whenever two or more creatures you control deal combat damage to Prison Term&apos;s controller, that player sacrifices it and draws a card.&quot;</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/13.png" num="15">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CW15</name>
+			<text>CW15 deals X damage to target tapped creature, where X is 2 plus the number of Auras and Equipment you control.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/14.png" num="16">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CW16 Your Temple Is Under Attack</name>
+			<text>Choose one —
+• Creatures you control gain indestructible until end of turn.
+• Each player may draw a card. For each opponent who did, draw a card.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/15.png" num="17">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CW17</name>
+			<text>Equipped creature gets +1/+1.
+Whenever equipped creature attacks, create a 1/1 white Human Soldier creature token that&apos;s tapped and attacking.
+Equip {2}</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/16.png" num="18">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Weapon Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CW18 Vengeful Prerogative</name>
+			<text>Enchant creature
+As this Aura enters, choose a player.
+Enchanted creature gets +2/+2, has first strike, and attacks the chosen player each combat if able.
+Whenever enchanted creature attacks, you gain 4 life.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/17.png" num="19">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CW19</name>
+			<text>Choose one —
+• Destroy target artifact or enchantment.
+• Attach target Aura or Equipment you control to target creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/18.png" num="20">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU01 Sumia, Maid of Flowers</name>
+			<text>Flying
+Sumia can&apos;t be blocked as long as she&apos;s attacking alone or you&apos;ve cast a noncreature spell this turn.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/19.png" num="21">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pegasus Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU02 Lena of Macedon</name>
+			<text>{T}: Add {C}{C}. This mana can&apos;t be spent to cast creature spells.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/20.png" num="22">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU03 Lute, Naturally Curious</name>
+			<text>Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/21.png" num="23">CLF</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR05 Erk, Solemn Mage // Tomefaire</name>
+			<text>Whenever you cast a noncreature spell, Erk deals 1 damage to target opponent.
+
+---
+
+Exile the top card of your library. You may play it this turn. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/22.png" num="63">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard // Instant — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>2R // R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU05 Seth, Clever Protector</name>
+			<text>Level up {3} ({3}: Put a level counter on this. Level up only as a sorcery.)
+Whenever Seth attacks, tap up to one target creature. Then put a stun counter on that creature for each level counter on Seth.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/23.png" num="25">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU06 Hinoka, Sibling Seeker</name>
+			<text>Flying, vigilance
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Armory (If this is your commander, you can have a Weapon as a second commander.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/24.png" num="26">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pegasus Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU07 Saias, Royal Bishop // Valflame</name>
+			<text>When this creature enters, look at target player&apos;s hand.
+
+---
+
+Return another target nonland permanent to its owner&apos;s hand. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/25.png" num="27">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>3U // 1U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU08 Iago, Garon&apos;s Muse</name>
+			<text>When this creature enters, return up to one target instant or sorcery card from a graveyard to its owner&apos;s hand. When a card is put into an opponent&apos;s hand this way, put three +1/+1 counters on this creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/26.png" num="28">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU09 Jill, Mistress of Wyverns</name>
+			<text>Flying
+When Jill enters, you seize the objective.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/27.png" num="29">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Drake Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU10 Training Dummy // Paragon</name>
+			<text>Defender
+{T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+
+---
+
+Put three level counters on target creature. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/28.png" num="30">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Scarecrow // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>1U // 1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU11 Appeal to the People</name>
+			<text>Counter target spell. Create a 1/1 white Human Soldier creature token with &quot;This creature can&apos;t block nontoken creatures.&quot;</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/29.png" num="31">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU12 Tactical Interception</name>
+			<text>Counter target spell unless its controller pays {2}. If a creature spell or Skill is countered this way, draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/30.png" num="32">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU13 Domineering Prerogative</name>
+			<text>Enchant creature
+As this Aura enters, choose a player.
+Enchanted creature gets +2/+2, has vigilance, and attacks the chosen player each combat if able.
+Whenever enchanted creature attacks, you may draw a card. If you do, discard a card.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/31.png" num="33">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CU14 Knoll&apos;s Knowledge</name>
+			<text>Recruit (This spell costs {1} less to cast for each opponent who lost life this turn.)
+Target player draws three cards.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/32.png" num="34">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU15 Subtle Rapport</name>
+			<text>Draw two cards, then discard a card unless you control two commanders.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/33.png" num="35">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU16 Staff: Rescue</name>
+			<text>Return target creature to its owner&apos;s hand. If you controlled that creature, draw a card.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/34.png" num="36">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU17 Torch Staff</name>
+			<text>Whenever equipped creature deals combat damage to a player, mill two cards, then put a card milled this way into your hand.
+Equip {1}</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/35.png" num="37">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Weapon Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CU18 Forced Retreat</name>
+			<text>Flash
+Enchant creature
+When this Aura enters, tap enchanted creature and remove it from combat.
+As long as enchanted creature isn&apos;t a commander, it doesn&apos;t untap during its controller&apos;s untap step.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/36.png" num="38">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CU19 Hanneman, Avid Scholar // Alert Stance</name>
+			<text>{T}: Untap target noncreature permanent.
+
+---
+
+Untap each creature you control. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/37.png" num="39">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>2U // 2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB01 Saizo, Cold and Deadly</name>
+			<text>Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/38.png" num="40">CLF</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB02 Loathesome Revenant</name>
+			<text>This creature enters tapped.
+At the beginning of your second main phase, if a creature died this turn, you may pay {1}{B}. If you do, return this card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/39.png" num="41">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB03 Henry, Giddy Caster // Anathema</name>
+			<text>At the beginning of your end step, if a creature died this turn, you gain 2 life.
+
+---
+
+Target player draws a card and loses 2 life. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/40.png" num="42">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>1B // 1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB04 Matthew, Opportunistic Spy</name>
+			<text>When Matthew dies, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)
+Follow up (Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that&apos;s tapped and attacking. Sacrifice the token at end of turn.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/41.png" num="43">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB05 Salem, Newly Disillusioned</name>
+			<text>Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)
+Whenever Salem attacks, each opponent loses 1 life for each level counter on him and you gain that much life.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/42.png" num="44">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB06 Mogall</name>
+			<text>Flying
+When this creature dies, create a 2/2 black Eye Bat creature token with flying and &quot;This creature can&apos;t block nontoken creatures.&quot;</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/43.png" num="45">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Eye Bat</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB08 Lifis, Young Leader</name>
+			<text>Sacrifice a creature: You gain 2 life and draw a card. Activate only if Lifis is equipped and only once each turn.
+Armory (If this is your commander, you can have a Weapon as a second commander.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/44.png" num="47">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB09 Hans, the Redeemed</name>
+			<text>Recruit (This spell costs {1} less to cast for each opponent who lost life this turn.)
+When Hans enters, each opponent sacrifices a nontoken creature and you sacrifice a creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/45.png" num="48">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB10 Valter, the Moonstone</name>
+			<text>Menace
+When Valter enters, you seize the objective.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/46.png" num="49">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB11 Fell Contract</name>
+			<text>Recruit (This spell costs {1} less to cast for each opponent who lost life this turn.)
+Exile target creature. You gain 3 life.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/47.png" num="50">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB12 Lysithea, Young Prodigy // Miasma</name>
+			<text>---
+
+Destroy target creature with power 3 or less. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/48.png" num="51">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>B // 1B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB13 Emmeryn&apos;s Martydom</name>
+			<text>For each player, choose up to one target creature that player controls. That player may pay 5 life. If they don&apos;t, they sacrifice the chosen creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/49.png" num="52">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB14 Pyrrhic Victory</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards. If the sacrificed creature was attacking, each opponent loses 2 life.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/50.png" num="53">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB15 Tharja, Dubious Recluse // Nosferatu</name>
+			<text>Lifelink
+
+---
+
+Mill two cards, then you may return a creature card from your graveyard to your hand. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/51.png" num="54">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>2B // 2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB16 Glancing Blow</name>
+			<text>Until end of turn, target creature gets +2/+0 and gains &quot;When this creature dies, return it to the battlefield tapped. If it has level up, put two experience counters on it.&quot;</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/52.png" num="55">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB17</name>
+			<text>Equipped creature gets +2/+2.
+Equip—Sacrifice a creature or discard a card. Activate only if this Equipment isn&apos;t attached to a creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/53.png" num="56">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Weapon Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CB18 Maniacal Prerogative</name>
+			<text>Enchant creature
+As this Aura enters, choose a player.
+Enchanted creature gets +2/+2, has deathtouch, and attacks the chosen player each combat if able.
+Whenever enchanted creature attacks, target player mills three cards.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/54.png" num="57">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CB19 Dark Magic</name>
+			<text>Chose one —
+• Target creature gets -0/-99 until end of turn.
+• Return target creature card from your graveyard to the battlefield.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/55.png" num="58">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR01 Determined Maurader // Sneak Past</name>
+			<text>Prowess
+
+---
+
+Target creature with base power 2 or less can&apos;t be blocked this turn. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/56.png" num="59">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior // Instant — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>R // R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR02 Pandreo, Carefree Priest</name>
+			<text>Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/57.png" num="60">CLF</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR04 Mae, Bundle of Energy // Seraphim</name>
+			<text>{T}: Target creature gains haste until end of turn.
+
+---
+
+Add {R}{R}{R}. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/58.png" num="62">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature // Instant — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>1R // 1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU04 Cherche and Minerva // Deliverer</name>
+			<text>Flying
+
+---
+
+Tap each creature target player controls. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/59.png" num="24">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Drake Knight // Instant — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>2U // 3U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR06 Ogma, Ruthless Bodyguard</name>
+			<text>Whenever Ogma attacks, create a Treasure token. If he&apos;s equipped, create two of those tokens instead.
+Armory (If this is your commander, you can have a Weapon as a second commander.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/60.png" num="64">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR07 Shura, Nohrian Thief</name>
+			<text>Recruit (This spell costs {1} less to cast for each opponent who lost life this turn.)
+When Shura enters, discard up to two cards, then draw that many cards. If you discarded a card that&apos;s an instant, sorcery, or that has a Skill, create a Treasure token.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/61.png" num="65">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR08 Dieck, Able Mentor</name>
+			<text>Trample
+As long as you control another creature with power 4 or greater, Dieck has follow up. (Whenever he attacks the opponent with the most life, create a nonlegendary token copy that&apos;s tapped and attacking. Sacrifice the token at end of combat.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/62.png" num="66">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR09 Band of Brigands // Provoke</name>
+			<text>Haste
+
+---
+
+Goad target creature. It can&apos;t block this turn. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/63.png" num="67">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker // Instant — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>4R // 1R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR10 Sue of the Kutolah</name>
+			<text>When this creature enters, you seize the objective and create a Treasure token.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/64.png" num="68">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR11 Bolganone</name>
+			<text>Recruit (This spell costs {1} less to cast for each opponent who lost life this turn.)
+Bolganone deals 6 damage to target creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/65.png" num="69">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR14 Ilyana, Voracious Mage // Thunder</name>
+			<text>---
+
+Creatures you control get +2/+0 and gain haste until end of turn. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/66.png" num="72">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>2R // 2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR13 Arcfire</name>
+			<text>Arcfire deals 1 damage to each opponent.
+Draw a card.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/67.png" num="71">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR12 Fire Tail</name>
+			<text>Fire Tail deals 2 damage to target opponent and each creature they control.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/68.png" num="70">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR15 Basilio, Master-at-Arms</name>
+			<text>Equip abilities you activate cost {1} less to activate for each creature you control with power 4 or greater.
+Follow up (Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that&apos;s tapped and attacking. Sacrifice the token at end of turn.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/69.png" num="73">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR16</name>
+			<text>Equipped creature gets +1/+0 and has haste and ward—Pay 3 life. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)
+Equip {1}</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/70.png" num="74">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Weapon Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CR17 Devilish Prerogative</name>
+			<text>Enchant creature
+As this Aura enters, choose a player.
+Enchanted creature gets +2/+2, has menace, and attacks the chosen player each combat if able.
+Whenever enchanted creature attacks, you create a Treasure token.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/71.png" num="75">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CR18 In the Heat of Battle</name>
+			<text>Choose one —
+• Destroy target artifact. If it was an Equipment, equipped creature can&apos;t block this turn.
+• Target attacking creature gets +2/+0 until end of turn for each player being attacked.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/72.png" num="76">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR19 Bernadetta, the Absent</name>
+			<text>Defender, reach
+{1}, {T}: Bernadetta deals 1 damage to each opponent.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/73.png" num="77">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Coward Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG01 Sophia, Half-Dragon Seer</name>
+			<text>Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/74.png" num="78">CLF</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Dragon Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG02 Natasha, Fleeing Healer // Imbue</name>
+			<text>When Natasha enters, you gain 3 life.
+
+---
+
+Target player adds one mana of any color. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/75.png" num="79">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric // Instant — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>1G // G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG03 Warren, of Simple Mind // Game Hunting</name>
+			<text>Reach
+
+---
+
+Search your library for a basic land card, reveal it, put it into your hand, then shuffle. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/76.png" num="80">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Archer // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>1G // G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG04 Dorcas, Dutiful Lover // Village Wiles</name>
+			<text>Whenever another creature you control enters, Dorcas gets +1/+0 until end of turn.
+
+---
+
+Create two 1/1 green Human creature tokens. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/77.png" num="81">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>2G // 3G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG05 Garcia, Retired Fighter</name>
+			<text>Garcia gets +2/+2 for each Aura and Equipment attached to him.
+Armory (If this is your commander, you can have a Weapon as a second commander.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/78.png" num="82">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG06 Dedue, His Highness&apos; Ward</name>
+			<text>Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/79.png" num="83">CLF</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG07 Erstwhile Entombed</name>
+			<text>Deathtouch
+When this creature dies, put three level counters on up to one target creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/80.png" num="84">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG08 Keaton, Wolfskin Leader</name>
+			<text>Trample
+At the beginning of each end step, if no spells were cast this turn, put a +1/+1 counter on Keaton.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/81.png" num="85">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Werewolf</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG09 Linhardt of House Hervring // Laze About</name>
+			<text>Landfall — Whenever a land you control enters, you gain 3 life.
+
+---
+
+Search your library for a land card with a basic land type, put it onto the battlefield, then shuffle. (You may cast a copy of this spell once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/82.png" num="86">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>4G // 1G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG10 Perceval, Loyal to a Fault</name>
+			<text>Trample
+When Perceval enters, you seize the objective.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/83.png" num="87">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG11 Gheb, Giggling General</name>
+			<text>When Gheb enters, create three 1/1 white Human Soldier creature tokens with &quot;This creature can&apos;t block nontoken creatures.&quot;</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/84.png" num="88">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG12 Forested Ambush</name>
+			<text>As an additional cost to cast this spell, tap an untapped creature you control.
+Each tapped creature you control deals damage equal to its power to target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/85.png" num="89">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CG13 Emotional Support</name>
+			<text>Target creature gains hexproof until end of turn. If it&apos;s attacking the opponent with the most life among your opponents, it also gets +3/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/86.png" num="90">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CG14 Violent Prerogative</name>
+			<text>Enchant creature
+As this Aura enters, choose a player.
+Enchanted creature gets +2/+2, has trample, and attacks the chosen player each combat if able.
+Whenever enchanted creature attacks, put a +1/+1 counter on target creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/87.png" num="91">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CG15 Rolf, Aspiring Merc</name>
+			<text>When Rolf enters, mill three cards, then return a land card from your graveyard to your hand. If an opponent lost life this turn, instead return that card to the battlefield.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/88.png" num="92">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG16</name>
+			<text>Equipped creature has base power and toughness 6/6 and trample.
+Equip {3}</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/89.png" num="93">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Weapon Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CG17 Broken Wings</name>
+			<text>Destroy target artifact, enchantment, or creature with flying.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/90.png" num="94">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CG18 Setsuna&apos;s Discoveries</name>
+			<text>Recruit (This spell costs {1} less to cast for each opponent who lost life this turn.)
+Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/91.png" num="95">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CG19 Barracks Preparation</name>
+			<text>Look at the top five cards of your library. You may reveal up to one creature card, up to one card with a skill, and up to one land card from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/92.png" num="96">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CW02 Hortensia, Crude Princess // Obstruct</name>
+			<text>---
+
+Tap target creature and put a stun counter on it. (You may cast a copy of this Skill once from the battlefield.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/93.png" num="3">CLF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble // Sorcery — Skill</type>
+				<maintype>Creature</maintype>
+				<manacost>1W // 1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB07 Shamir, Unrepentant</name>
+			<text>Recruit (This spell costs {1} less to cast for each opponent who lost life this turn.)
+When Shamir enters, destroy up to one target creature that was dealt damage this turn.</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/94.png" num="46">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR03 Lon&apos;qu, of Reckless Pride</name>
+			<text>During your turn, this creature has first strike.
+Follow up (Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that&apos;s tapped and attacking. Sacrifice the token at end of turn.)</text>
+			<set rarity="common" picurl="https://mtg/sets/CLF-files/img/95.png" num="61">CLF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
