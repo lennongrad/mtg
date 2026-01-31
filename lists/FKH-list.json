@@ -1,0 +1,1701 @@
+﻿[
+    {
+        "card_name": "Basri, the Missionary",
+        "number": 6,
+        "shape": "planeswalker",
+        "set": "FKH",
+        "rotated": false,
+        "position": "138"
+    },
+    {
+        "card_name": "Plead to the Gods",
+        "number": 46,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "143"
+    },
+    {
+        "card_name": "Angel of Debts",
+        "number": 59,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "Chandra, Ember Evangel",
+        "number": 93,
+        "shape": "planeswalker",
+        "set": "FKH",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "Nissa of the Beating Sands",
+        "number": 129,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "141"
+    },
+    {
+        "card_name": "Acquisition Cat",
+        "number": 1,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "Atemsis' Keeper",
+        "number": 30,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "158"
+    },
+    {
+        "card_name": "Archfiend of Deceit",
+        "number": 60,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "139"
+    },
+    {
+        "card_name": "Hazoret, the Returned",
+        "number": 102,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Alleyway Prophet",
+        "number": 114,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "Alberius' Memorial",
+        "number": 2,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "173"
+    },
+    {
+        "card_name": "Challenge Belief",
+        "number": 33,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "159"
+    },
+    {
+        "card_name": "Cleaver of the Damned",
+        "number": 66,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Badlands Madcap",
+        "number": 89,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "162"
+    },
+    {
+        "card_name": "Deacon of the Dunes",
+        "number": 119,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "Angel of Collections",
+        "number": 3,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "Makhrehi's Decree",
+        "number": 42,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "Curse of Wandering",
+        "number": 69,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "189"
+    },
+    {
+        "card_name": "Devout Warcaller",
+        "number": 96,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "Glass Shard Enveloper",
+        "number": 125,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "Makhrehi, Tairin's Speaker",
+        "number": 21,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "Mirror of Livelihood",
+        "number": 43,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "160"
+    },
+    {
+        "card_name": "Necroraiser Mage",
+        "number": 75,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "171"
+    },
+    {
+        "card_name": "Glory Dominus",
+        "number": 100,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Khenra Strike Team",
+        "number": 126,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "Regnant Sandseer",
+        "number": 23,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Nightmare Stalker",
+        "number": 45,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "Visions of the Afterlife",
+        "number": 85,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "Ravages of Khnum",
+        "number": 110,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "161"
+    },
+    {
+        "card_name": "Vyl, Queen of the Swarm",
+        "number": 139,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "Sickle of Accursed Sorrow",
+        "number": 24,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "190"
+    },
+    {
+        "card_name": "Consult the Texts",
+        "number": 34,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Bloodletter Battlewing",
+        "number": 63,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "Chandra's Mistake",
+        "number": 94,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "Battleworn Mastodon",
+        "number": 115,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "146"
+    },
+    {
+        "card_name": "Basri's Supervision",
+        "number": 7,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "Drake Summoning",
+        "number": 37,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "148"
+    },
+    {
+        "card_name": "Bolas' Shadow",
+        "number": 64,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "Desanctify",
+        "number": 95,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "134"
+    },
+    {
+        "card_name": "Cartouche of Triumph",
+        "number": 118,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "Beast of the Mirage",
+        "number": 8,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "Heavenly Recounter",
+        "number": 38,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Bontu's Might",
+        "number": 65,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Flamespeaker Khenra",
+        "number": 98,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Defend Khnum",
+        "number": 120,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "Cloud Drift",
+        "number": 9,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "149"
+    },
+    {
+        "card_name": "Kefnet's Might",
+        "number": 40,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "Corrupt Belief",
+        "number": 68,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "Grizzled Tomb Raider",
+        "number": 101,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "133"
+    },
+    {
+        "card_name": "Divine Congregation",
+        "number": 123,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Furnish the Dead",
+        "number": 12,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "Naktamun Skirmisher",
+        "number": 44,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Join the Horde",
+        "number": 72,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "Hazoret's Might",
+        "number": 103,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "Nature-Call Minister",
+        "number": 128,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "135"
+    },
+    {
+        "card_name": "Gauntlets of Banishing",
+        "number": 13,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "137"
+    },
+    {
+        "card_name": "Ravenous Sandwhale",
+        "number": 47,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "Lurker of the Old Guard",
+        "number": 73,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "Khenra Rageblood",
+        "number": 104,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "132"
+    },
+    {
+        "card_name": "Nissa's Discovery",
+        "number": 130,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "Gluttonous Feline",
+        "number": 15,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "Silver-Clad Seer",
+        "number": 49,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "130"
+    },
+    {
+        "card_name": "Rotting Greatwurm",
+        "number": 78,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "Lightning Chestplate",
+        "number": 106,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "Rhonas' Might",
+        "number": 136,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Harrier of Dark Skies",
+        "number": 17,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "Swirl of Consciousness",
+        "number": 52,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "Speaker of the Anointed",
+        "number": 80,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "Preacher of Abandon",
+        "number": 109,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "Scarab Shepherd",
+        "number": 138,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "Horde Mastermind",
+        "number": 18,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Tezzeret's Dismissal",
+        "number": 53,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "131"
+    },
+    {
+        "card_name": "Touch Death",
+        "number": 82,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "Unceasing Devotion",
+        "number": 113,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Zaliki's Divine Protection",
+        "number": 140,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "136"
+    },
+    {
+        "card_name": "Oketra's Might",
+        "number": 22,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Become Mirage",
+        "number": 31,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "Vengeance-Worn Blade",
+        "number": 83,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "Abrading Emberhorn",
+        "number": 86,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Bring Aground",
+        "number": 116,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "128"
+    },
+    {
+        "card_name": "Vizier of Construction",
+        "number": 27,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "170"
+    },
+    {
+        "card_name": "Cavern Seer",
+        "number": 32,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "Abandon",
+        "number": 57,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "Accursed Sledge",
+        "number": 87,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "Capturer Recluse",
+        "number": 117,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "125"
+    },
+    {
+        "card_name": "Anointed Healer",
+        "number": 4,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "Desert's Rejection",
+        "number": 35,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "Abhorrent Punisher",
+        "number": 58,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "Assault at the Rocks",
+        "number": 88,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "Deliver to the Afterlife",
+        "number": 121,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "123"
+    },
+    {
+        "card_name": "Appeal to Life",
+        "number": 5,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "120"
+    },
+    {
+        "card_name": "Diviner of the Hidden Path",
+        "number": 36,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Atemsis' Witness",
+        "number": 61,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "Blade of Hazoret",
+        "number": 90,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Devouring Sandwurm",
+        "number": 122,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "Earthen Retribution",
+        "number": 10,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "Intercept",
+        "number": 39,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "110"
+    },
+    {
+        "card_name": "Barren Desiccator",
+        "number": 62,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Broken Foundation",
+        "number": 91,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "Faithful Terraforming",
+        "number": 124,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Encase in Sand",
+        "number": 11,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "118"
+    },
+    {
+        "card_name": "Legionary Jumpsuit",
+        "number": 41,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "Corpse's Glove",
+        "number": 67,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "Burning-Heart Assaulter",
+        "number": 92,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "115"
+    },
+    {
+        "card_name": "Naktamun Reformer",
+        "number": 127,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "Glittering Carapace",
+        "number": 14,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "Retrieve Valuables",
+        "number": 48,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Decrepit Flesh",
+        "number": 70,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "Erupt",
+        "number": 97,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "Oasislurker",
+        "number": 131,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "129"
+    },
+    {
+        "card_name": "Guardian Devotee",
+        "number": 16,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "122"
+    },
+    {
+        "card_name": "Starlit Duneweaver",
+        "number": 50,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Gulfield's Tyranny",
+        "number": 71,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "186"
+    },
+    {
+        "card_name": "Glimpse a Better World",
+        "number": 99,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Order of Khnum",
+        "number": 132,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "127"
+    },
+    {
+        "card_name": "Khnum Evangel",
+        "number": 19,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "119"
+    },
+    {
+        "card_name": "Suppress Innovation",
+        "number": 51,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "Master of the Accursed",
+        "number": 74,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "Launch Force",
+        "number": 105,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "117"
+    },
+    {
+        "card_name": "Piercing Bellower",
+        "number": 133,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "Khnum-Bane Retriever",
+        "number": 20,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "Treasure-Cache Slitherer",
+        "number": 54,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Parasitic Cadaver",
+        "number": 76,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "Mage of the Broken Lands",
+        "number": 107,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "Protector of Khnum",
+        "number": 134,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "Summon the Sands",
+        "number": 25,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "Unbearable Exertion",
+        "number": 55,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "Remnant of Affliction",
+        "number": 77,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "Palace Gate Pilgrim",
+        "number": 108,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "Reticent Peacekeeper",
+        "number": 135,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "124"
+    },
+    {
+        "card_name": "Terror of Shefet",
+        "number": 26,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "Wastelands Scout",
+        "number": 56,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "Ruthless Manticore",
+        "number": 79,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "Raze Wraps",
+        "number": 111,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "113"
+    },
+    {
+        "card_name": "Sanctifier of Dust",
+        "number": 137,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "126"
+    },
+    {
+        "card_name": "Warrior of Wrapped Wings",
+        "number": 28,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Thought for Thought",
+        "number": 81,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Torturer's Device",
+        "number": 112,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "116"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Witness to Death",
+        "number": 29,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "121"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vile Axe",
+        "number": 84,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Quicksand Vortex",
+        "number": 157,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "151"
+    },
+    {
+        "card_name": "Tezzeret, the Twisted Faith",
+        "number": 162,
+        "shape": "planeswalker",
+        "set": "FKH",
+        "rotated": false,
+        "position": "140"
+    },
+    {
+        "card_name": "Plague of Scorpions",
+        "number": 156,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "Vlyrim, Who Devourers",
+        "number": 164,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "152"
+    },
+    {
+        "card_name": "Alberius the Sand Caller",
+        "number": 141,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Eternal Reawakening",
+        "number": 146,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Plague of Scarabs",
+        "number": 155,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "Illicit Bargainer",
+        "number": 151,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Anep, of Tattered Bonds",
+        "number": 142,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "Etha, Khnum Watchleader",
+        "number": 147,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hero of Naktamun",
+        "number": 150,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Vizier of Unity",
+        "number": 163,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "Plague of Locusts",
+        "number": 154,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "Suffer the Curse",
+        "number": 161,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "Resolute Bannerwing",
+        "number": 158,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "Nadu, Divine Strategist",
+        "number": 153,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "155"
+    },
+    {
+        "card_name": "Labor for the Departed",
+        "number": 152,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "Firesky Drake",
+        "number": 148,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Sokar, Soul Searcher",
+        "number": 160,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Djeru, Resolute Recruiter",
+        "number": 144,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "Epnokep, Vizier of Sands",
+        "number": 145,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Gulfield, Cruel Heir",
+        "number": 149,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "165"
+    },
+    {
+        "card_name": "Samut, Troubled Vizier",
+        "number": 159,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "Atemsis, of Sandstone",
+        "number": 143,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Pyramid of the Living",
+        "number": 169,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Samut's Palace",
+        "number": 170,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "Defiled Banner",
+        "number": 165,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "169"
+    },
+    {
+        "card_name": "Sand Pillar Sentinel",
+        "number": 171,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "Sand Sled",
+        "number": 172,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "172"
+    },
+    {
+        "card_name": "Shrine to Zaliki",
+        "number": 174,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Glittering Trinket",
+        "number": 166,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "166"
+    },
+    {
+        "card_name": "Jockey Harness",
+        "number": 167,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Oracle's Hideaway",
+        "number": 168,
+        "shape": "transform double faced",
+        "set": "FKH",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "Sandstone Messenger",
+        "number": 173,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Lands of Reckoning",
+        "number": 180,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Lands of Eternity",
+        "number": 177,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "Lands of Glory",
+        "number": 178,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "Lands of Devastation",
+        "number": 176,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "Lands of Promise",
+        "number": 179,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Pastoral Rivulet",
+        "number": 187,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "145"
+    },
+    {
+        "card_name": "Murky Glade",
+        "number": 185,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "177"
+    },
+    {
+        "card_name": "Perilous Canyon",
+        "number": 188,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Wooded Cliffs",
+        "number": 191,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "184"
+    },
+    {
+        "card_name": "Meadow Thicket",
+        "number": 184,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "181"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Barren Flats",
+        "number": 183,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "Steep Fissure",
+        "number": 190,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Overgrown Morass",
+        "number": 186,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "Rocky Steppe",
+        "number": 189,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "185"
+    },
+    {
+        "card_name": "Arboreous Delta",
+        "number": 182,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Atemsis' Oasis",
+        "number": 175,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "Shifting Sands",
+        "number": 181,
+        "shape": "normal",
+        "set": "FKH",
+        "rotated": false,
+        "position": "176"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

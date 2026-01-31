@@ -1,0 +1,3660 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>FKH</name>
+			<longname>Faith of Amonkhet</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-31</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Corpse&apos;s Glove</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +1/+1 and has deathtouch.
+Equip {2}</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/0.png" num="67">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Divine Congregation</name>
+			<text>Create two 1/1 green and white Human Cleric creature tokens with &quot;{T}: Add two mana in any combination of colors. Spend this mana only to activate abilities.&quot;</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/1.png" num="123">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Anointed Healer</name>
+			<text>As long as you&apos;re divine, this creature gets +1/+1 and has lifelink.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/2.png" num="4">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heavenly Recounter</name>
+			<text>When this creature enters while you&apos;re divine or you become divine for the first time, the owner of target creature puts it on the top or bottom of their library.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/3.png" num="38">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Furnish the Dead</name>
+			<text>Create a 2/2 black Zombie creature token with decayed, then you may attach an Equipment you control to it. (A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Flashback {2}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/4.png" num="12">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oketra&apos;s Might</name>
+			<text>Consecrate {3}{W}{W} (You may cast this spell by sacrificing a creature and paying its Consecrate cost reduced by that creature&apos;s power. If you do, put this spell onto the battlefield transformed as it resolves.)
+Create three 1/1 white Human Soldier creature tokens.
+---
+(Back): Visage of Oketra</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/5_front.png" num="22a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Visage of Oketra</related>
+		</card>
+		<card>
+			<name>Visage of Oketra</name>
+			<text>First strike
+Whenever this creature attacks, each other attacking creature gets +1/+1 until end of turn.
+---
+(Front): Oketra&apos;s Might</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/5_back.png" num="22b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Oketra&apos;s Might</related>
+		</card>
+		<card>
+			<name>Kefnet&apos;s Might</name>
+			<text>Consecrate {3}{U}{U} (You may cast this spell by sacrificing a creature and paying its Consecrate cost reduced by that creature&apos;s power. If you do, put this spell onto the battlefield transformed as it resolves.)
+Counter target spell unless its controller pays {3}.
+---
+(Back): Visage of Kefnet</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/6_front.png" num="40a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Visage of Kefnet</related>
+		</card>
+		<card>
+			<name>Visage of Kefnet</name>
+			<text>Flying
+Sacrifice this creature: Counter target spell unless its controller pays {1} plus an additional {1} for each card in your hand.
+---
+(Front): Kefnet&apos;s Might</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/6_back.png" num="40b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Kefnet&apos;s Might</related>
+		</card>
+		<card>
+			<name>Bontu&apos;s Might</name>
+			<text>Consecrate {3}{B}{B} (You may cast this spell by sacrificing a creature and paying its Consecrate cost reduced by that creature&apos;s power. If you do, put this spell onto the battlefield transformed as it resolves.)
+Target opponent sacrifices a creature of their choice with the greatest mana value among creatures they control.
+---
+(Back): Visage of Bontu</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/7_front.png" num="65a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Visage of Bontu</related>
+		</card>
+		<card>
+			<name>Visage of Bontu</name>
+			<text>Menace (That creature can&apos;t be blocked except by two or more creatures.)
+At the beginning of your end step, each opponent that had a creature die under their control this turn loses 2 life and you gain that much life.
+---
+(Front): Bontu&apos;s Might</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/7_back.png" num="65b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Bontu&apos;s Might</related>
+		</card>
+		<card>
+			<name>Hazoret&apos;s Might</name>
+			<text>Consecrate {3}{R}{R} (You may cast this spell by sacrificing a creature and paying its Consecrate cost reduced by that creature&apos;s power. If you do, put this spell onto the battlefield transformed as it resolves.)
+Gain control of target creature until end of turn. Untap that creature. It gets +2/+0 and gains haste until end of turn.
+---
+(Back): Visage of Hazoret</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/8_front.png" num="103a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Visage of Hazoret</related>
+		</card>
+		<card>
+			<name>Visage of Hazoret</name>
+			<text>Haste
+Discard a card: Another target creature you control gets +2/+0 and gains haste until end of turn. Sacrifice that creature at the beginning of the next end step.
+---
+(Front): Hazoret&apos;s Might</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/8_back.png" num="103b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Hazoret&apos;s Might</related>
+		</card>
+		<card>
+			<name>Rhonas&apos; Might</name>
+			<text>Consecrate {3}{G}{G} (You may cast this spell by sacrificing a creature and paying its Consecrate cost reduced by that creature&apos;s power. If you do, put this spell onto the battlefield transformed as it resolves.)
+Target creature you control gets +2/+2 until end of turn. It fights target creature an opponent controls.
+---
+(Back): Visage of Rhonas</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/9_front.png" num="136a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Visage of Rhonas</related>
+		</card>
+		<card>
+			<name>Visage of Rhonas</name>
+			<text>Trample
+Whenever you attack, untap target creature you control. If it was dealt damage this turn, it gains indestructible until end of turn.
+---
+(Front): Rhonas&apos; Might</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/9_back.png" num="136b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Rhonas&apos; Might</related>
+		</card>
+		<card>
+			<name>Oracle&apos;s Hideaway</name>
+			<text>{1}, {T}: Scry 1. Put a brick counter on this artifact. (To scry 1, look at the top card of your library. You may put that card on the bottom.)
+When there are three or more brick counters on this artifact, transform it.
+---
+(Back): Oracle&apos;s Seeing Stone</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/10_front.png" num="168a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Oracle&apos;s Seeing Stone</related>
+		</card>
+		<card>
+			<name>Oracle&apos;s Seeing Stone</name>
+			<text>At the beginning of your upkeep, scry 1.
+{6}, {T}: Draw a card.
+---
+(Front): Oracle&apos;s Hideaway</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/10_back.png" num="168b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Oracle&apos;s Hideaway</related>
+		</card>
+		<card>
+			<name>Shrine to Zaliki</name>
+			<text>{2}, {T}: Search your library for a card with a basic land type, put it into your hand, then shuffle. Put a brick counter on this artifact.
+When there are three or more brick counters on this artifact, transform it.
+---
+(Back): Zaliki&apos;s Presence</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/11_front.png" num="174a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Zaliki&apos;s Presence</related>
+		</card>
+		<card>
+			<name>Zaliki&apos;s Presence</name>
+			<text>Hexproof
+At the beginning of combat on your turn, up to one target creature gets +X/+X until end of turn, where X is the number of basic land types you control.
+---
+(Front): Shrine to Zaliki</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/11_back.png" num="174b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Shrine to Zaliki</related>
+		</card>
+		<card>
+			<name>Samut&apos;s Palace</name>
+			<text>{1}, {T}: Create a tapped 1/1 white Human Soldier creature token. Put a brick counter on this artifact.
+When there are three or more brick counters on this artifact, transform it.
+---
+(Back): Samut&apos;s Attendants</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/12_front.png" num="170a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Samut&apos;s Attendants</related>
+		</card>
+		<card>
+			<name>Samut&apos;s Attendants</name>
+			<text>First strike
+This creature&apos;s power and toughness are each equal to the number of creatures you control.
+---
+(Front): Samut&apos;s Palace</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/12_back.png" num="170b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Samut&apos;s Palace</related>
+		</card>
+		<card>
+			<name>Pyramid of the Living</name>
+			<text>At the beginning of combat on your turn, you gain 1 life. If you are divine, put a brick counter on this artifact. 
+When there are three or more brick counters on this artifact, transform it.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)
+---
+(Back): Tairin, God of the Dead</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/13_front.png" num="169a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Tairin, God of the Dead</related>
+		</card>
+		<card>
+			<name>Tairin, God of the Dead</name>
+			<text>Tairin is all colors.
+Flying, vigilance, indestructible, haste
+Whenever a nontoken creature dies, exile it. When you do, put a +1/+1 counters on each creature you control that shares a color with the exiled card.
+---
+(Front): Pyramid of the Living</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/13_back.png" num="169b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>6/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Pyramid of the Living</related>
+		</card>
+		<card>
+			<name>Cleaver of the Damned</name>
+			<text>Equipped creature gets +2/+2 and has menace and decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Whenever this Equipment enters or equipped creature dies, attach this Equipment to target creature.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/14.png" num="66">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Legionary Jumpsuit</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature has flying. If it&apos;s a Zombie, it also has &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;
+Equip {3}</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/15.png" num="41">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vengeance-Worn Blade</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +1/+0 and has &quot;{B}, {T}, Sacrifice this creature: Target creature gets -X/-X until end of turn, where X is this creature&apos;s power. Activate only as a sorcery.&quot;
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/16.png" num="83">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Glittering Carapace</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +0/+2.
+Equip {1}</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/17.png" num="14">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Alberius the Sand Caller</name>
+			<text>Deserts you control have &quot;{T}, Pay 1 life: Add one mana of any color.&quot;
+As long as you&apos;re divine, creatures you control get +1/+1 and have vigilance.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/18.png" num="141">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alleyway Prophet</name>
+			<text>Whenever you cast a multicolored spell, create a 1/1 green and white Human Cleric creature token with &quot;{T}: Add two mana in any combination of colors. Spend this mana only to activate abilities.&quot; If you&apos;re divine, create two of those tokens instead.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/19.png" num="114">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Regnant Sandseer</name>
+			<text>Flying
+As long as you&apos;re divine, your opponents can&apos;t cast more than one spell each turn.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/20.png" num="23">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glory Dominus</name>
+			<text>Flying, haste
+Whenever this creature attacks, you may put a stun counter on it. When you do, it deals 1 damage to each creature and planeswalker your opponents control. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/21.png" num="100">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Visions of the Afterlife</name>
+			<text>At the beginning of your end step, reveal the top card and put it into your hand. If you&apos;re divine, you gain life equal to the revealed card&apos;s mana value. Otherwise, you lose that much life.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/22.png" num="85">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lightning Chestplate</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +3/+0 and has trample and haste.
+Equip {5}</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/23.png" num="106">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lands of Devastation</name>
+			<text>({T}: Add {R}.)
+This land enters tapped.
+{1}{R}, {T}, Sacrifice this land, Discard a card: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/24.png" num="176">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Lands of Reckoning</name>
+			<text>({T}: Add {W}.)
+This land enters tapped.
+{1}{W}, {T}, Sacrifice this land: Tap target creature and put a stun counter on it. Activate only as a sorcery. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/25.png" num="180">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hazoret, the Returned</name>
+			<text>Indestructible
+As long as you&apos;re divine, Hazoret gets +5/+0 and has haste.
+Discard a card: Add one mana of any color.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/26.png" num="102">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lands of Promise</name>
+			<text>({T}: Add {G}.)
+This land enters tapped.
+{1}{G}, {T}, Sacrifice this land: Distribute two +1/+1 counters among up to two target creatures you control. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/27.png" num="179">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Lands of Eternity</name>
+			<text>({T}: Add {U}.)
+This land enters tapped.
+{1}{U}, {T}, Sacrifice this land: Scry 3. (Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/28.png" num="177">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Lands of Glory</name>
+			<text>({T}: Add {B}.)
+This land enters tapped.
+{1}{B}, {T}, Sacrifice this land: Put target creature or planeswalker card from your graveyard on top of your library.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/29.png" num="178">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Atemsis&apos; Oasis</name>
+			<text>Atemsis&apos; Oasis enters tapped with a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+{T}: Add one mana of any color.
+{3}: Return this card from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/30.png" num="175">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Desert</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Atemsis, of Sandstone</name>
+			<text>Flying
+At the beginning of your end step, choose a card name, then reveal the top card of your library. If that card has the chosen name, draw a card.
+{1}{U}, Return another artifact you control to its owner&apos;s hand: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/31.png" num="143">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Sand Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>1WUB</manacost>
+				<cmc>4</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Protector of Khnum</name>
+			<text>Reach
+This creature gets +2/+2 as long as you&apos;re divine.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/32.png" num="134">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Archer Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flamespeaker Khenra</name>
+			<text>When this creature enters while you&apos;re divine or you become divine for the first time, it deals 2 damage to any target.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/33.png" num="98">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Jackal Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diviner of the Hidden Path</name>
+			<text>Vigilance
+As long as you&apos;re divine, this creature can&apos;t be blocked.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/34.png" num="36">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sandstone Messenger</name>
+			<text>When this creature enters, you may discard a card. When you do, search your library for a card with a basic land type, reveal it, then shuffle and put that card into your hand.
+As long as you&apos;re divine, this creature gets +0/+2.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/35.png" num="173">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sand Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starlit Duneweaver</name>
+			<text>Flying
+{T}: Untap target non-Artificer permanent.
+{T}: Tap target permanent. Activate only if you&apos;ve discarded a card this turn.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/36.png" num="50">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eternal Reawakening</name>
+			<text>Surveil 2, then exile a creature card from your graveyard. Create a token that&apos;s a copy of it, except it&apos;s a 4/4 black Zombie with no mana cost in addition to its other types.
+Cycling {W}{U} ({W}{U}, Discard this card: Draw a card.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/37.png" num="146">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WWU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hero of Naktamun</name>
+			<text>Flying
+Whenever a creature you control deals combat damage to an opponent, that player loses 1 life and you gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/38.png" num="150">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Illicit Bargainer</name>
+			<text>Whenever you sacrifice a permanent, up to one target creature gets -1/-1 until end of turn. If you controlled that creature and you haven&apos;t created a Treasure this turn, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/39.png" num="151">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anep, of Tattered Bonds</name>
+			<text>Trample
+Other Warriors you control have trample.
+Whenever Anep or another creature you control with power 4 or greater attacks, you may put a stun counter on it. If you do, double its power until end of turn. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/40.png" num="142">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Jackal Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Etha, Khnum Watchleader</name>
+			<text>Flash
+Reach
+When Etha enters, each tapped creature you control gets +1/+1 until end of turn. Untap them.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/41.png" num="147">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Jackal Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Labor for the Departed</name>
+			<text>When this enchantment enters the battlefield, create a 2/2 black Zombie creature token with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Whenever a Zombie you control dies during your turn, target opponent sacrifices a creature of their choice. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/42.png" num="152">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sokar, Soul Searcher</name>
+			<text>Deathtouch
+Whenever Sokar attacks, mill three cards, then choose a permanent card in your graveyard. Return it to your hand if it&apos;s a land card or if you&apos;re divine.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/43.png" num="160">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Epnokep, Vizier of Sands</name>
+			<text>{T}: Add two mana in any combination of colors. Spend this mana only to activate abilities.
+Whenever a land enters under your control, if you&apos;re divine, draw a card.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/44.png" num="145">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Firesky Drake</name>
+			<text>This spell costs {2} less to cast for each card you&apos;ve discarded this turn.
+Flying, ward {1}, haste (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/45.png" num="148">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>4UR</manacost>
+				<cmc>6</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Djeru, Resolute Recruiter</name>
+			<text>Whenever you put a stun counter on a creature, create a 1/1 white Human Soldier creature token.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/46.png" num="144">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scarab Shepherd</name>
+			<text>{3}: Create a 1/1 green Insect creature token with deathtouch and &quot;This creature can&apos;t attack or block unless you&apos;re divine.&quot; Activate only as a sorcery.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/47.png" num="138">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blade of Hazoret</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
+Whenever this creature attacks, you may put a stun counter on it. When you do, target creature can&apos;t block this turn. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/48.png" num="90">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Jackal Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Piercing Bellower</name>
+			<text>Whenever this creature attacks, you may put a stun counter on it. If you do, it gets +2/+2 until end of turn. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/49.png" num="133">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Naktamun Reformer</name>
+			<text>{T}: Add one mana of any color.
+{T}, Put a stun counter on this creature: Add {C}{C}. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/50.png" num="127">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gluttonous Feline</name>
+			<text>Whenever this creature attacks, you may put a stun counter on it. If you do, you gain 2 life. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/51.png" num="15">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Khnum-Bane Retriever</name>
+			<text>Whenever this creature attacks, you may put a stun counter on it. If you do, it gains first strike until end of turn. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/52.png" num="20">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Jackal Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warrior of Wrapped Wings</name>
+			<text>Flying
+Whenever this creature attacks, you may put a stun counter on it. When you do, put a +1/+1 counter on target creature with a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/53.png" num="28">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Bird Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Angel of Collections</name>
+			<text>Flying, protection from black (This creature can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything black.)
+{W}, Tap an untapped creature you control: Tap target untapped creature.
+{W}, Remove a stun counter from a creature you control: Put a stun counter on target tapped creature.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/54.png" num="3">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WWW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Angel of Debts</name>
+			<text>Flying, protection from white (This creature can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything white.)
+{B}, Sacrifice a creature you control: Target creature gets -1/-1 until end of turn.
+{B}, Sacrifice a creature you control with toughness less than its base toughness: Exile target creature.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/55.png" num="59">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1BBB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abrading Emberhorn</name>
+			<text>Reach
+When this creature enters, if you&apos;ve discarded a card this turn, choose one —
+• Abrading Emberhorn deals 3 damage to any target.
+• Destroy up to one target artifact.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/56.png" num="86">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Warrior Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Khenra Strike Team</name>
+			<text>Whenever this creature attacks, you may put a stun counter on it. When you do, put a +1/+1 counter on each attacking creature you control that&apos;s a Jackal or a Warrior.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/57.png" num="126">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Jackal Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lurker of the Old Guard</name>
+			<text>Whenever this creature becomes blocked, defending player loses 2 life.
+Whenever this creature and one or more other Zombies you control deal combat damage to an opponent, that player discards a card.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/58.png" num="73">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruthless Manticore</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
+{3}{B}, Sacrifice another creature: This creature gains indestructible until end of turn. Tap it.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/59.png" num="79">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Manticore</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Naktamun Skirmisher</name>
+			<text>Whenever this creature becomes blocked, defending player loses 2 life.
+Whenever this creature attacks and isn&apos;t blocked, you may cast a noncreature spell from your hand with mana value 2 or less without paying its mana cost.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/60.png" num="44">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Snake Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Retrieve Valuables</name>
+			<text>Draw three cards, then discard two cards.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/61.png" num="48">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mage of the Broken Lands</name>
+			<text>When this creature enters, you may discard a card. If you do, draw a card.
+{4}, Exile a land card from your graveyard: Mage of the Broken Lands deals 1 damage to each opponent.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/62.png" num="107">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Broken Foundation</name>
+			<text>As an additional cost to cast this spell, discard a card or pay {2}.
+Broken Foundation deals 4 damage to target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/63.png" num="91">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consult the Texts</name>
+			<text>At the beginning of your first main phase, draw a card, then discard a card unless you&apos;re divine.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/64.png" num="34">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Swirl of Consciousness</name>
+			<text>Create a tapped token that&apos;s a copy of target creature you control.
+Madness {1}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/65.png" num="52">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plague of Scarabs</name>
+			<text>Consecrate {4}{U}{B} (You may cast this spell by sacrificing a creature and paying its Consecrate cost reduced by that creature&apos;s power. If you do, put this spell onto the battlefield transformed as it resolves.)
+Surveil 2, then draw two cards. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+---
+(Back): Visage of the Scarab God</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/66_front.png" num="155a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Visage of the Scarab God</related>
+		</card>
+		<card>
+			<name>Visage of the Scarab God</name>
+			<text>{U}{B}, {T}: Exile target creature card from a graveyard. Create a token that&apos;s a copy of it, except it&apos;s a 2/2 black Zombie with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Whenever you sacrifice a Zombie, untap this creature.
+---
+(Front): Plague of Scarabs</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/66_back.png" num="155b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Plague of Scarabs</related>
+		</card>
+		<card>
+			<name>Plague of Locusts</name>
+			<text>Consecrate {4}{U}{R} (You may cast this spell by sacrificing a creature and paying its Consecrate cost reduced by that creature&apos;s power. If you do, put this spell onto the battlefield transformed as it resolves.)
+Discard your hand, then draw that many cards plus one.
+---
+(Back): Visage of the Locust God</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/67_front.png" num="154a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Visage of the Locust God</related>
+		</card>
+		<card>
+			<name>Visage of the Locust God</name>
+			<text>Flying
+At the beginning of combat on your turn, create a 1/1 blue and red Insect creature token with flying and haste for each card you&apos;ve discarded this turn.
+At the beginning of your end step, sacrifice each Insect you control unless you&apos;ve discarded a card this turn.
+---
+(Front): Plague of Locusts</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/67_back.png" num="154b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Plague of Locusts</related>
+		</card>
+		<card>
+			<name>Plague of Scorpions</name>
+			<text>Consecrate {4}{B}{R} (You may cast this spell by sacrificing a creature and paying its Consecrate cost reduced by that creature&apos;s power. If you do, put this spell onto the battlefield transformed as it resolves.)
+Each creature gets -3/-3 until end of turn.
+---
+(Back): Visage of the Scorpion God</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/68_front.png" num="156a">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Visage of the Scorpion God</related>
+		</card>
+		<card>
+			<name>Visage of the Scorpion God</name>
+			<text>Haste
+{T}: Destroy target creature with toughness less than its base toughness. If you controlled that creature, draw a card.
+---
+(Front): Plague of Scorpions</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/68_back.png" num="156b">FKH</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — God Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Plague of Scorpions</related>
+		</card>
+		<card>
+			<name>Samut, Troubled Vizier</name>
+			<text>First strike, vigilance, haste
+{2}, {T}: Samut gains double strike until end of turn.
+{2}, {T}: Untap another target creature. Put your choice of a +1/+1, first strike, vigilance, or haste counter on it.</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/69.png" num="159">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1RGW</manacost>
+				<cmc>4</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Terror of Shefet</name>
+			<text>Flying
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/70.png" num="26">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>6/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Treasure-Cache Slitherer</name>
+			<text>When this creature dies, draw two cards.
+Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/71.png" num="54">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>6UU</manacost>
+				<cmc>8</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devouring Sandwurm</name>
+			<text>When this creature enters, you may put a trample counter on it. If you don&apos;t, you gain 4 life.
+Cycling {1}{G} ({1}{G}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/72.png" num="122">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Faithful Terraforming</name>
+			<text>Search your library for a card with a basic land type, put it onto the battlefield tapped, then shuffle.
+As long as you control a Desert and this card is in your graveyard, it has Flashback {5}{G}. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/73.png" num="124">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Desert&apos;s Rejection</name>
+			<text>The owner of target artifact, creature, or enchantment puts it on the top or bottom of their library.
+Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/74.png" num="35">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Abandon</name>
+			<text>Destroy target creature.
+Cycling {1}{B} ({1}{B}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/75.png" num="57">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wastelands Scout</name>
+			<text>Flying
+This creature enters with a +1/+1 counter on it if you&apos;ve discarded a card this turn.
+Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/76.png" num="56">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Earthen Retribution</name>
+			<text>Earthen Retribution deals 3 damage to target attacking or blocking creature. If you control a Desert or there&apos;s a Desert card in your graveyard, it deals 4 damage to that creature instead.
+Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/77.png" num="10">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Summon the Sands</name>
+			<text>Target creature gets +1/+1 and gains flying until end of turn. Remove any number of stun counters from among creatures you control.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/78.png" num="25">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Barren Desiccator</name>
+			<text>When this creature enters or dies, exile up to one other target card from a graveyard. If a land card was exiled this way, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/79.png" num="62">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Snake</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Atemsis&apos; Witness</name>
+			<text>When this creature enters, target player mills three cards.
+As long as you control a Desert or there&apos;s a Desert card in your graveyard, this creature gets +2/+0.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/80.png" num="61">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Join the Horde</name>
+			<text>This spell casts {1} less to cast for each Zombie you control.
+Exile target creature. If it wasn&apos;t a Zombie, create a 2/2 black Zombie creature token with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/81.png" num="72">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Speaker of the Anointed</name>
+			<text>Lifelink
+{3}{B}, Sacrifice a creature: You draw a card and lose 1 life. This ability costs {3} less to activate if you&apos;re divine.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/82.png" num="80">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Defend Khnum</name>
+			<text>You may cast Defend Khnum as though it had flash if you pay {3} more to cast it.
+Untap each creature you control. They get +3/+3 and gain vigilance until end of turn. Prevent all combat damage that would be dealt this turn by Gods or Zombies.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/83.png" num="120">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Beast of the Mirage</name>
+			<text>When this creature enters, return up to one other target creature you control to its owner&apos;s hand.
+{1}{W}, Tap an untapped Desert you control: Exile this creature, then return it to the battlefield tapped under its owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/84.png" num="8">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Camel</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rotting Greatwurm</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Menace
+When this creature enters, target opponent loses 4 life and you gain 4 life.
+{3}{B}: Mill four cards, then put this card from your graveyard on top of your library.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/85.png" num="78">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>4BBB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>8/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodletter Battlewing</name>
+			<text>Flash
+Flying
+This creature can&apos;t block.
+Whenever this creature attacks, you may put a stun counter on it. When you do, target creature gets -1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/86.png" num="63">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Decrepit Flesh</name>
+			<text>Enchant creature
+Enchanted creature has decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)
+When enchanted creature dies, draw a card.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/87.png" num="70">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unceasing Devotion</name>
+			<text>Whenever an equipped or enchanted creature you control dies, exile the top card of your library. Until the end of your next turn, you may play that card.
+Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/88.png" num="113">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vizier of Unity</name>
+			<text>Whenever this creature or another nontoken Cleric you control enters, create a 2/2 black Zombie creature token with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Whenever you attack with three or more Zombies, target creature gains double strike until end of turn.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/89.png" num="163">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Horde Mastermind</name>
+			<text>When this creature enters, put three +1/+1 counters on target Zombie you control.
+Whenever a Zombie you control dies during your turn, if it had counters on it, put those counters on another target Zombie you control.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/90.png" num="18">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cavern Seer</name>
+			<text>When this creature enters, look at the top three cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/91.png" num="32">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Palace Gate Pilgrim</name>
+			<text>When this creature enters while you&apos;re divine or you become divine for the first time, exile the top card of your library. You may play that card until the end of your next turn.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/92.png" num="108">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glimpse a Better World</name>
+			<text>Add five mana in any combination of colors. Spend this mana only to activate abilities or to cast planeswalker spells.
+Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/93.png" num="99">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Touch Death</name>
+			<text>Return up to two target creature cards from your graveyard to your hand.
+Cycling {B} ({B}, Discard this card: Draw a card.)
+When you cycle this card, create a 2/2 black Zombie creature token with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/94.png" num="82">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Harrier of Dark Skies</name>
+			<text>Flash
+Flying
+Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
+When you cycle this card, tap up to two target creatures without flying.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/95.png" num="17">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Bird Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nissa&apos;s Discovery</name>
+			<text>Mill five cards. You may put a permanent card from among the cards milled this way into your hand. (To mill five card, put the top five cards of your library into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/96.png" num="130">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Basri&apos;s Supervision</name>
+			<text>Put a +1/+1 counter on each of up to two target creatures. If either had a stun counter on it, draw a card.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/97.png" num="7">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Remnant of Affliction</name>
+			<text>Whenever this creature becomes blocked, defending player loses 2 life.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/98.png" num="77">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Makhrehi, Tairin&apos;s Speaker</name>
+			<text>As long as you control a God creature, creatures can&apos;t attack you or planeswalkers you control unless their controller pays {1} for each creature they control that&apos;s attacking you.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/99.png" num="21">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ravenous Sandwhale</name>
+			<text>This spell costs {1} less to cast for each Desert you control and each Desert card in your graveyard.
+Blocking creatures your opponents control get -1/-0.
+Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/100.png" num="47">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>5UUU</manacost>
+				<cmc>8</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>9/9</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vyl, Queen of the Swarm</name>
+			<text>When this creature enters, exile target player&apos;s graveyard. For each land card exiled this way, create a 1/1 green Insect creature token.
+Whenever another creature you control dies, put a +1/+1 counter on this creature. If it was an Insect, put two +1/+1 counters on this instead.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/101.png" num="139">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2GGG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chandra&apos;s Mistake</name>
+			<text>Chandra&apos;s Mistake deals 6 damage to target creature or planeswalker. Discard a card at random, then draw a card.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/102.png" num="94">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Master of the Accursed</name>
+			<text>When this creature enters, create a 2/2 black Zombie creature token with decayed. If you control another Cleric, create two of those tokens instead. (A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/103.png" num="74">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thought for Thought</name>
+			<text>As an additional cost to cast this spell, discard a card.
+Target player discards three cards.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/104.png" num="81">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Parasitic Cadaver</name>
+			<text>When this creature dies, create a 2/2 black Zombie creature token with decayed. When you do, target creature gets -1/-1 until end of turn. (A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/105.png" num="76">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vile Axe</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +2/+1 and has &quot;Whenever this creature attacks alone, defending player loses 1 life and you gain 1 life.&quot;
+Equip {3}</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/106.png" num="84">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Accursed Sledge</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +1/+0 and has &quot;Whenever this creature attacks, create a Treasure token.&quot;
+Equip {1}</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/107.png" num="87">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unbearable Exertion</name>
+			<text>Enchant creature
+When this enchantment enters, tap enchanted creature.
+Enchanted creature doesn&apos;t untap during its controller&apos;s untap step.
+Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/108.png" num="55">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Suppress Innovation</name>
+			<text>Counter target artifact or enchantment spell.
+Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/109.png" num="51">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Intercept</name>
+			<text>Counter target spell. If it was a noncreature spell, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/110.png" num="39">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Become Mirage</name>
+			<text>Target creature becomes a black Horror with base power and toughness 4/4 until end of turn. If you&apos;ve discarded a card this turn, you may instead have it become a green Snake with base power and toughness 1/1 until end of turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/111.png" num="31">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Abhorrent Punisher</name>
+			<text>Whenever this creature attacks or blocks while you&apos;re not divine, discard a card. If you can&apos;t, sacrifice a creature of your choice at end of combat.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/112.png" num="58">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raze Wraps</name>
+			<text>Raze Wraps deals 2 damage to target creature. If it&apos;s a Zombie, Raze Wraps also deals 2 damage to that creature&apos;s controller.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/113.png" num="111">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Erupt</name>
+			<text>Target creature gets +3/+1 until end of turn.
+Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/114.png" num="97">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burning-Heart Assaulter</name>
+			<text>Haste
+As long as you&apos;ve discarded a card this turn, this creature gets +2/+0.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/115.png" num="92">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Torturer&apos;s Device</name>
+			<text>Defender
+{1}{R}, {T}: Torturer&apos;s Device deals 1 damage to target opponent.
+Cycling {R} ({R}, Discard this card: Draw a card.)
+When you cycle this card, it deals 1 damage to target opponent.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/116.png" num="112">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wall</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Launch Force</name>
+			<text>Target creature you control deals damage equal to its power to any other target. Then sacrifice it. If the sacrificed creature&apos;s power was 4 or greater, exile the top card of your library. Until the end of your next turn, you may play that card.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/117.png" num="105">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Encase in Sand</name>
+			<text>When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield.
+When this enchantment enters, if you control a Desert or there&apos;s a Desert card in your graveyard, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/118.png" num="11">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Khnum Evangel</name>
+			<text>When this creature enters while you&apos;re divine or you become divine for the first time, put two +1/+1 counters on target creature.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/119.png" num="19">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Appeal to Life</name>
+			<text>Choose target permanent card in your graveyard that was put there from the battlefield this turn. Return it to the battlefield tapped.
+Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/120.png" num="5">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Witness to Death</name>
+			<text>Flying
+Whenever this creature attacks, untap target attacking creature.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/121.png" num="29">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guardian Devotee</name>
+			<text>When this creature dies, scry 1. Then draw a card if you&apos;re divine. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/122.png" num="16">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deliver to the Afterlife</name>
+			<text>Target creature you control deals damage equal to its power to target creature or planeswalker you don&apos;t control. If that creature or planeswalker would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/123.png" num="121">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reticent Peacekeeper</name>
+			<text>Defender
+As long as you&apos;re divine, this creature has vigilance and can attack as though it didn&apos;t have defender.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/124.png" num="135">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capturer Recluse</name>
+			<text>Reach
+Whenever a creature dealt damage by this creature this turn dies, reveal cards from the top of your library until you reveal a land card. Put that card into your hand and the rest on the bottom of your library in a random order.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/125.png" num="117">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sanctifier of Dust</name>
+			<text>When this creature dies, you gain 2 life. If you control a Desert or there&apos;s a Desert card in your graveyard, instead you gain 4 life.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/126.png" num="137">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Order of Khnum</name>
+			<text>When this creature enters, create a 1/1 green and white Human Cleric creature token with &quot;{T}: Add two mana in any combination of colors. Spend this mana only to activate abilities.&quot;</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/127.png" num="132">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bring Aground</name>
+			<text>Bring Aground deals 5 damage to target creature with flying.
+Cycling {1}{G} ({1}{G}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/128.png" num="116">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oasislurker</name>
+			<text>As long as you&apos;re divine, this creature gets +1/+1 and has trample.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/129.png" num="131">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Silver-Clad Seer</name>
+			<text>Whenever this creature attacks, you may put a stun counter on it. When you do, choose one:
+• Target creature gets -4/-0 until end of turn.
+• Target player mills four cards.
+• Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/130.png" num="49">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tezzeret&apos;s Dismissal</name>
+			<text>Counter target spell. If you haven&apos;t discarded a card this turn, put a card from your hand on the bottom of your library.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/131.png" num="53">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Khenra Rageblood</name>
+			<text>Haste
+Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/132.png" num="104">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Jackal Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grizzled Tomb Raider</name>
+			<text>First strike
+Whenever this creature attacks, you may put a stun counter on it. If you do, whenever this creature deals combat damage to a player this turn, create a tapped Treasure token.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/133.png" num="101">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Desanctify</name>
+			<text>Destroy target nonbasic land. Desanctify deals 1 damage to that land&apos;s controller for each type of mana that land could produce.
+Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/134.png" num="95">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nature-Call Minister</name>
+			<text>Trample
+At the beginning of combat on your turn, if you&apos;re divine, put a +1/+1 counter on this creature.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/135.png" num="128">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zaliki&apos;s Divine Protection</name>
+			<text>Target creature gets +1/+1 and gains indestructible until end of turn.
+Cycling {1}{G} ({1}{G}, Discard this card: Draw a card.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/136.png" num="140">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gauntlets of Banishing</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Whenever equipped creature dies, exile target creature or planeswalker until this Equipment leaves the battlefield. 
+Equip {4}</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/137.png" num="13">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Basri, the Missionary</name>
+			<text>Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)
+[+1]: Put a +1/+1 counter on up to one target creature. If you&apos;re divine, that creature gains lifelink and vigilance until end of turn.
+[-0]: Tap target creature and put a stun counter on it. If you&apos;re divine, instead tap up to two target creatures. Put a stun counter on each of them.
+[-2]: Create a 2/2 white Human Cleric creature token. If you&apos;re divine, instead create two of those tokens.</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/138.png" num="6">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Basri</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Archfiend of Deceit</name>
+			<text>Flying, trample
+Creatures your opponents control get -1/-1 for each counter on them.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/139.png" num="60">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tezzeret, the Twisted Faith</name>
+			<text>[+1]: Create a Treasure token.
+[-1]: Draw a card, then you may return an artifact you control to its owner&apos;s hand. If you don&apos;t, discard a card.
+[-3]: Target creature gets -X/-X until end of turn, where X is the number of artifacts you control.</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/140.png" num="162">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Tezzeret</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nissa of the Beating Sands</name>
+			<text>{1}, {T}: Add one mana of any color.
+{2}, {T}: Target creature gets +2/+2 until end of turn. Activate only as a sorcery.
+{3}, {T}: Reveal the top card of your library. If it&apos;s a permanent card, put it into your hand. Otherwise, put it on the bottom of your library.</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/141.png" num="129">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chandra, Ember Evangel</name>
+			<text>Whenever you activate a loyalty ability, you may discard a card. If you do, draw a card.
+[+1]: Chandra deals X damage to any target, where X is the number of card types among cards you&apos;ve discarded this turn.
+[-1]: Exile an instant or sorcery card from your graveyard. Copy it. You may cast the copy.
+[-X]: Destroy X target artifacts.</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/142.png" num="93">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Chandra</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plead to the Gods</name>
+			<text>Shuffle your hand and graveyard into your library, then draw seven cards. If mana was spent to cast this spell, take an extra turn after this one. 
+Exile Plead to the Gods.
+Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/143.png" num="46">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7UUU</manacost>
+				<cmc>10</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Devout Warcaller</name>
+			<text>Trample
+At the beginning of your second main phase, if you&apos;re divine, untap each creature you control that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/144.png" num="96">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pastoral Rivulet</name>
+			<text>({T}: Add {W} or {U}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/145.png" num="187">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Battleworn Mastodon</name>
+			<text>Whenever this creature attacks, you may put a stun counter on it. When you do, target creature gets +1/+1 until end of turn.
+When this creature dies, draw a card for each creature you control with a stun counter on it.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/146.png" num="115">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elephant</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Preacher of Abandon</name>
+			<text>Ward—Pay 2 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.)
+{1}, Sacrifice a permanent: This creature gets +2/+2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/147.png" num="109">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drake Summoning</name>
+			<text>Whenever you discard a card, create a 2/2 blue Drake creature token with flying. This ability triggers only once each turn.
+As long as you&apos;ve discarded a card this turn, Drake creatures you control get +1/+0.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/148.png" num="37">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cloud Drift</name>
+			<text>Exile target creature you control, then return it to the battlefield under its owner&apos;s control.
+Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
+When you cycle this card, exile up to one target creature you control. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/149.png" num="9">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Corrupt Belief</name>
+			<text>Target player draws two cards and loses 2 life.
+Madness {B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/150.png" num="68">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Quicksand Vortex</name>
+			<text>Flash
+When this enchantment enters, exile all creatures until this enchantment leaves the battlefield.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/151.png" num="157">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WWU</manacost>
+				<cmc>5</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vlyrim, Who Devourers</name>
+			<text>Whenever Vlyrim or another Wurm you control attacks, you may mill cards equal to that creature&apos;s power. When you do, Vlyim deals damage to target creature equal to the number of land cards milled this way.
+{2}{G}: Put one or more target land cards from your graveyard on top of your library in any order.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/152.png" num="164">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>2RRGG</manacost>
+				<cmc>6</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Suffer the Curse</name>
+			<text>Destroy target nonland permanent. You lose X life, where X is that permanent&apos;s mana value reduced by the number of Deserts you control plus the number of Desert cards in your graveyard.
+Cycling {1}{B}{G} ({1}{B}{G}, Discard this card: Draw a card.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/153.png" num="161">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Resolute Bannerwing</name>
+			<text>Flying
+At the beginning of combat on your turn, put a +1/+1 counter on target Warrior you control.
+Whenever you put one or more counters on a Warrior, Resolute Bannerwing deals that much damage to target player or planeswalker.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/154.png" num="158">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>RWW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nadu, Divine Strategist</name>
+			<text>Flying
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Whenever you cast an instant or sorcery spell that targets only a single creature you control, copy that spell. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/155.png" num="153">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Cleric Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Acquisition Cat</name>
+			<text>First strike
+Whenever this creature attacks, create a tapped 1/1 blue Fish creature token for each attacking Cat you control.
+{1}, Sacrifice a Fish, Rat, or Bird: Put a +1/+1 counter on target Cat.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/156.png" num="1">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nightmare Stalker</name>
+			<text>Flying
+When this creature becomes the target of a spell or ability, sacrifice it.
+When this creature dies, target player reveals their hand. You may choose nonland card from it. If you do, they put that card on the bottom of their library, then draw a card.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/157.png" num="45">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Atemsis&apos; Keeper</name>
+			<text>Flying
+Whenever you discard a nonland card, you may return target creature with lesser mana value than the discarded card to its owner&apos;s hand. Do this only once each turn.
+Whenever you discard a land card, you may draw a card. Do this only once each turn.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/158.png" num="30">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Challenge Belief</name>
+			<text>Counter target spell unless its controller pays {X}.
+Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)
+When you cycle this card, if an opponent controls more lands than you, draw a card.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/159.png" num="33">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mirror of Livelihood</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+At the beginning of combat on your turn, equipped creature becomes a copy of up to one other target creature.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/160.png" num="43">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ravages of Khnum</name>
+			<text>Ravages of Khnum deals X damage to target creature or planeswalker. Excess damage is dealt to that permanent&apos;s controller instead.
+Cycling {R} ({R}, Discard this card: Draw a card.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/161.png" num="110">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Badlands Madcap</name>
+			<text>This creature gets +1/+0 for each card you&apos;ve discarded this turn.
+Whenever you attack, you may discard a card. If you do, choose a creature. Whenever that creature deals combat damage to a player this turn, you draw two cards.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/162.png" num="89">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deacon of the Dunes</name>
+			<text>This creature gets +1/+1 for each Desert you control and each Desert card in your graveyard.
+As long as you control a creature with power 4 or greater, you may play an additional land on each of your turns, and you may play land cards from your graveyard.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/163.png" num="119">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glass Shard Enveloper</name>
+			<text>Reach, trample
+When this creature dies, up to one target creature you control becomes a copy of this creature.</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/164.png" num="125">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sand Avatar Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gulfield, Cruel Heir</name>
+			<text>Ward—Discard a card, Pay 3 life.
+At the beginning of your upkeep, draw a card, then each player discards a card.
+Madness {U}{B}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
+			<set rarity="mythic" picurl="https://mtg/sets/FKH-files/img/165.png" num="149">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3UBR</manacost>
+				<cmc>6</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glittering Trinket</name>
+			<text>When this artifact enters, draw a card.
+{T}: Add two mana in any combination of colors. Spend this mana only to activate abilities.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/166.png" num="166">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Jockey Harness</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +1/+2.
+Equip {1}</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/167.png" num="167">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sand Pillar Sentinel</name>
+			<text>Vigilance
+If a creature is attacking you and you control a Desert or there is a Desert card in your graveyard, you may cast Sand Pillar Sentinel as though it had flash.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/168.png" num="171">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Wurm Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Defiled Banner</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +1/+1 and has &quot;Whenever this creature attacks, each other creature that shares a creature type with it gets +1/+1 until end of turn.&quot;
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/169.png" num="165">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vizier of Construction</name>
+			<text>When this creature enters, look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+{1}, {T}: Put your choice of a brick counter or a charge counter on target artifact. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/170.png" num="27">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Necroraiser Mage</name>
+			<text>Deathtouch
+When this creature enters, target Zombie creature card in your graveyard gains embalm until end of turn. The embalm cost is equal to its mana cost. (Exile the creature card and pay its mana cost: Create a token that&apos;s a copy of it, except it&apos;s white and it has no mana cost. Activate only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/171.png" num="75">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sand Sled</name>
+			<text>Trample
+At the beginning of combat on your turn, if you&apos;re divine, you may have this Vehicle become an artifact creature and gain haste until end of turn.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)
+Crew 4</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/172.png" num="172">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Alberius&apos; Memorial</name>
+			<text>Create a 4/4 white Angel creature token with flying for each creature that died under your control this turn.
+Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/173.png" num="2">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Makhrehi&apos;s Decree</name>
+			<text>As this enchantment enters, each opponent reveals their hand, then choose a nonland card name.
+Whenever an opponent casts a spell with the chosen name, counter that spell. Then sacrifice this enchantment unless you&apos;re divine.
+Divinity ({W}{U}{B}{R}{G}: You become divine for the rest of the game. Activate only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/174.png" num="42">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Assault at the Rocks</name>
+			<text>Creatures you control get +2/+0 until end of turn. Each creature you control with a stun counter on it gets +3/+0 until end of turn instead.
+Cycling {R} ({R}, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/175.png" num="88">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shifting Sands</name>
+			<text>{T}: Add {C}.
+{1}, {T}, Pay 1 life, Sacrifice this land: Search your library for a Desert land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/176.png" num="181">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Murky Glade</name>
+			<text>({T}: Add {U} or {B}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/177.png" num="185">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Perilous Canyon</name>
+			<text>({T}: Add {B} or {R}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/178.png" num="188">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Morass</name>
+			<text>({T}: Add {B} or {G}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/179.png" num="186">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Steep Fissure</name>
+			<text>({T}: Add {U} or {R}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/180.png" num="190">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Meadow Thicket</name>
+			<text>({T}: Add {G} or {W}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/181.png" num="184">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Barren Flats</name>
+			<text>({T}: Add {W} or {B}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/182.png" num="183">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Arboreous Delta</name>
+			<text>({T}: Add {G} or {U}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/183.png" num="182">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wooded Cliffs</name>
+			<text>({T}: Add {R} or {G}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/184.png" num="191">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rocky Steppe</name>
+			<text>({T}: Add {R} or {W}.)
+This land enters tapped.</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/185.png" num="189">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gulfield&apos;s Tyranny</name>
+			<text>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Create a 2/2 black Zombie creature token with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="common" picurl="https://mtg/sets/FKH-files/img/186.png" num="71">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cartouche of Triumph</name>
+			<text>Enchant creature you control
+When this Aura enters, enchanted creature deals damage equal to its power to up to one target creature or planeswalker you don&apos;t control.
+Enchanted creature gets +2/+2 and has trample.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/187.png" num="118">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura Cartouche</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bolas&apos; Shadow</name>
+			<text>Enchant player
+When this Curse enters, enchanted player discards two cards unless they discard a nonland card.
+Whenever enchanted player discards a card, they lose 2 life and you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://mtg/sets/FKH-files/img/188.png" num="64">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura Curse</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Curse of Wandering</name>
+			<text>Enchant player
+At the beginning of enchanted player&apos;s upkeep, that player sacrifices a non-Zombie creature of their choice. If they do, create a 2/2 black Zombie creature token with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/189.png" num="69">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura Curse</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sickle of Accursed Sorrow</name>
+			<text>Husk (When this enters, create a 2/2 black Zombie creature token with decayed, then attach this to it. A creature with decayed can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Equipped creature gets +2/+2 and has flying and vigilance.
+Equip—Pay {2} and sacrifice equipped creature.
+Equip {6}</text>
+			<set rarity="rare" picurl="https://mtg/sets/FKH-files/img/190.png" num="24">FKH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

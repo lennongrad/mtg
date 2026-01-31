@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/FKH-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>FKH visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/FKH-files/logo.png" />
+	<img class="preload-hidden" src="../sets/CLF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FKH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FOV-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/FKH"><img src="../sets/FKH-files/icon.png">Faith of Amonkhet</a>
+	
+		<a class="set-bar inactive" href="../previews/CLF"><img src="../sets/CLF-files/icon.png">Commander Legends: Fire Emblem</a>
+	
+		<a class="set-bar inactive" href="../previews/FOV"><img src="../sets/FOV-files/icon.png">Far Over Vryn</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/FKH-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\FKH-files\img\138.png" id="FKH_138" data-flag="@X" onclick="openSidebar('FKH_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\143.png" id="FKH_143" data-flag="@X" onclick="openSidebar('FKH_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\55.png" id="FKH_55" data-flag="@X" onclick="openSidebar('FKH_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\142.png" id="FKH_142" data-flag="@X" onclick="openSidebar('FKH_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\141.png" id="FKH_141" data-flag="@X" onclick="openSidebar('FKH_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\156.png" id="FKH_156" data-flag="@X" onclick="openSidebar('FKH_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\158.png" id="FKH_158" data-flag="@X" onclick="openSidebar('FKH_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\139.png" id="FKH_139" data-flag="@X" onclick="openSidebar('FKH_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\26.png" id="FKH_26" data-flag="@X" onclick="openSidebar('FKH_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\19.png" id="FKH_19" data-flag="@X" onclick="openSidebar('FKH_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\173.png" id="FKH_173" data-flag="@X" onclick="openSidebar('FKH_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\159.png" id="FKH_159" data-flag="@X" onclick="openSidebar('FKH_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\14.png" id="FKH_14" data-flag="@X" onclick="openSidebar('FKH_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\162.png" id="FKH_162" data-flag="@X" onclick="openSidebar('FKH_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\163.png" id="FKH_163" data-flag="@X" onclick="openSidebar('FKH_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\54.png" id="FKH_54" data-flag="@X" onclick="openSidebar('FKH_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\174.png" id="FKH_174" data-flag="@X" onclick="openSidebar('FKH_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\189.png" id="FKH_189" data-flag="@X" onclick="openSidebar('FKH_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\144.png" id="FKH_144" data-flag="@X" onclick="openSidebar('FKH_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\164.png" id="FKH_164" data-flag="@X" onclick="openSidebar('FKH_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\99.png" id="FKH_99" data-flag="@X" onclick="openSidebar('FKH_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\160.png" id="FKH_160" data-flag="@X" onclick="openSidebar('FKH_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\171.png" id="FKH_171" data-flag="@X" onclick="openSidebar('FKH_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\21.png" id="FKH_21" data-flag="@X" onclick="openSidebar('FKH_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\57.png" id="FKH_57" data-flag="@X" onclick="openSidebar('FKH_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\20.png" id="FKH_20" data-flag="@X" onclick="openSidebar('FKH_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\157.png" id="FKH_157" data-flag="@X" onclick="openSidebar('FKH_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\22.png" id="FKH_22" data-flag="@X" onclick="openSidebar('FKH_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\161.png" id="FKH_161" data-flag="@X" onclick="openSidebar('FKH_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\101.png" id="FKH_101" data-flag="@X" onclick="openSidebar('FKH_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\190.png" id="FKH_190" data-flag="@X" onclick="openSidebar('FKH_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\64.png" id="FKH_64" data-flag="@X" onclick="openSidebar('FKH_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\86.png" id="FKH_86" data-flag="@X" onclick="openSidebar('FKH_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\102.png" id="FKH_102" data-flag="@X" onclick="openSidebar('FKH_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\146.png" id="FKH_146" data-flag="@X" onclick="openSidebar('FKH_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\97.png" id="FKH_97" data-flag="@X" onclick="openSidebar('FKH_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\148.png" id="FKH_148" data-flag="@X" onclick="openSidebar('FKH_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\188.png" id="FKH_188" data-flag="@X" onclick="openSidebar('FKH_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\134.png" id="FKH_134" data-flag="@X" onclick="openSidebar('FKH_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\187.png" id="FKH_187" data-flag="@X" onclick="openSidebar('FKH_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\84.png" id="FKH_84" data-flag="@X" onclick="openSidebar('FKH_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\3.png" id="FKH_3" data-flag="@X" onclick="openSidebar('FKH_3',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\7_back.png" alt="sets\FKH-files\img\7_front.png" id="FKH_7" data-flag="@XD" onclick="openSidebar('FKH_7',false)"><button class="flip-btn" onclick="imgFlip('FKH_7')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\33.png" id="FKH_33" data-flag="@X" onclick="openSidebar('FKH_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\83.png" id="FKH_83" data-flag="@X" onclick="openSidebar('FKH_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\149.png" id="FKH_149" data-flag="@X" onclick="openSidebar('FKH_149',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\6_back.png" alt="sets\FKH-files\img\6_front.png" id="FKH_6" data-flag="@XD" onclick="openSidebar('FKH_6',false)"><button class="flip-btn" onclick="imgFlip('FKH_6')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\150.png" id="FKH_150" data-flag="@X" onclick="openSidebar('FKH_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\133.png" id="FKH_133" data-flag="@X" onclick="openSidebar('FKH_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\1.png" id="FKH_1" data-flag="@X" onclick="openSidebar('FKH_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\4.png" id="FKH_4" data-flag="@X" onclick="openSidebar('FKH_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\60.png" id="FKH_60" data-flag="@X" onclick="openSidebar('FKH_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\81.png" id="FKH_81" data-flag="@X" onclick="openSidebar('FKH_81',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\8_back.png" alt="sets\FKH-files\img\8_front.png" id="FKH_8" data-flag="@XD" onclick="openSidebar('FKH_8',false)"><button class="flip-btn" onclick="imgFlip('FKH_8')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\135.png" id="FKH_135" data-flag="@X" onclick="openSidebar('FKH_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\137.png" id="FKH_137" data-flag="@X" onclick="openSidebar('FKH_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\100.png" id="FKH_100" data-flag="@X" onclick="openSidebar('FKH_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\58.png" id="FKH_58" data-flag="@X" onclick="openSidebar('FKH_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\132.png" id="FKH_132" data-flag="@X" onclick="openSidebar('FKH_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\96.png" id="FKH_96" data-flag="@X" onclick="openSidebar('FKH_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\51.png" id="FKH_51" data-flag="@X" onclick="openSidebar('FKH_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\130.png" id="FKH_130" data-flag="@X" onclick="openSidebar('FKH_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\85.png" id="FKH_85" data-flag="@X" onclick="openSidebar('FKH_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\23.png" id="FKH_23" data-flag="@X" onclick="openSidebar('FKH_23',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\9_back.png" alt="sets\FKH-files\img\9_front.png" id="FKH_9" data-flag="@XD" onclick="openSidebar('FKH_9',false)"><button class="flip-btn" onclick="imgFlip('FKH_9')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\95.png" id="FKH_95" data-flag="@X" onclick="openSidebar('FKH_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\65.png" id="FKH_65" data-flag="@X" onclick="openSidebar('FKH_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\82.png" id="FKH_82" data-flag="@X" onclick="openSidebar('FKH_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\147.png" id="FKH_147" data-flag="@X" onclick="openSidebar('FKH_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\47.png" id="FKH_47" data-flag="@X" onclick="openSidebar('FKH_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\90.png" id="FKH_90" data-flag="@X" onclick="openSidebar('FKH_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\131.png" id="FKH_131" data-flag="@X" onclick="openSidebar('FKH_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\94.png" id="FKH_94" data-flag="@X" onclick="openSidebar('FKH_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\88.png" id="FKH_88" data-flag="@X" onclick="openSidebar('FKH_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\136.png" id="FKH_136" data-flag="@X" onclick="openSidebar('FKH_136',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\5_back.png" alt="sets\FKH-files\img\5_front.png" id="FKH_5" data-flag="@XD" onclick="openSidebar('FKH_5',false)"><button class="flip-btn" onclick="imgFlip('FKH_5')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\111.png" id="FKH_111" data-flag="@X" onclick="openSidebar('FKH_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\16.png" id="FKH_16" data-flag="@X" onclick="openSidebar('FKH_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\56.png" id="FKH_56" data-flag="@X" onclick="openSidebar('FKH_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\128.png" id="FKH_128" data-flag="@X" onclick="openSidebar('FKH_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\170.png" id="FKH_170" data-flag="@X" onclick="openSidebar('FKH_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\91.png" id="FKH_91" data-flag="@X" onclick="openSidebar('FKH_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\75.png" id="FKH_75" data-flag="@X" onclick="openSidebar('FKH_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\107.png" id="FKH_107" data-flag="@X" onclick="openSidebar('FKH_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\125.png" id="FKH_125" data-flag="@X" onclick="openSidebar('FKH_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\2.png" id="FKH_2" data-flag="@X" onclick="openSidebar('FKH_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\74.png" id="FKH_74" data-flag="@X" onclick="openSidebar('FKH_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\112.png" id="FKH_112" data-flag="@X" onclick="openSidebar('FKH_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\175.png" id="FKH_175" data-flag="@X" onclick="openSidebar('FKH_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\123.png" id="FKH_123" data-flag="@X" onclick="openSidebar('FKH_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\120.png" id="FKH_120" data-flag="@X" onclick="openSidebar('FKH_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\34.png" id="FKH_34" data-flag="@X" onclick="openSidebar('FKH_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\80.png" id="FKH_80" data-flag="@X" onclick="openSidebar('FKH_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\48.png" id="FKH_48" data-flag="@X" onclick="openSidebar('FKH_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\72.png" id="FKH_72" data-flag="@X" onclick="openSidebar('FKH_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\77.png" id="FKH_77" data-flag="@X" onclick="openSidebar('FKH_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\110.png" id="FKH_110" data-flag="@X" onclick="openSidebar('FKH_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\79.png" id="FKH_79" data-flag="@X" onclick="openSidebar('FKH_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\63.png" id="FKH_63" data-flag="@X" onclick="openSidebar('FKH_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\73.png" id="FKH_73" data-flag="@X" onclick="openSidebar('FKH_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\118.png" id="FKH_118" data-flag="@X" onclick="openSidebar('FKH_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\15.png" id="FKH_15" data-flag="@X" onclick="openSidebar('FKH_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\0.png" id="FKH_0" data-flag="@X" onclick="openSidebar('FKH_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\115.png" id="FKH_115" data-flag="@X" onclick="openSidebar('FKH_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\50.png" id="FKH_50" data-flag="@X" onclick="openSidebar('FKH_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\17.png" id="FKH_17" data-flag="@X" onclick="openSidebar('FKH_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\61.png" id="FKH_61" data-flag="@X" onclick="openSidebar('FKH_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\87.png" id="FKH_87" data-flag="@X" onclick="openSidebar('FKH_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\114.png" id="FKH_114" data-flag="@X" onclick="openSidebar('FKH_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\129.png" id="FKH_129" data-flag="@X" onclick="openSidebar('FKH_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\122.png" id="FKH_122" data-flag="@X" onclick="openSidebar('FKH_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\36.png" id="FKH_36" data-flag="@X" onclick="openSidebar('FKH_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\186.png" id="FKH_186" data-flag="@X" onclick="openSidebar('FKH_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\93.png" id="FKH_93" data-flag="@X" onclick="openSidebar('FKH_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\127.png" id="FKH_127" data-flag="@X" onclick="openSidebar('FKH_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\119.png" id="FKH_119" data-flag="@X" onclick="openSidebar('FKH_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\109.png" id="FKH_109" data-flag="@X" onclick="openSidebar('FKH_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\103.png" id="FKH_103" data-flag="@X" onclick="openSidebar('FKH_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\117.png" id="FKH_117" data-flag="@X" onclick="openSidebar('FKH_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\49.png" id="FKH_49" data-flag="@X" onclick="openSidebar('FKH_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\52.png" id="FKH_52" data-flag="@X" onclick="openSidebar('FKH_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\71.png" id="FKH_71" data-flag="@X" onclick="openSidebar('FKH_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\105.png" id="FKH_105" data-flag="@X" onclick="openSidebar('FKH_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\62.png" id="FKH_62" data-flag="@X" onclick="openSidebar('FKH_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\32.png" id="FKH_32" data-flag="@X" onclick="openSidebar('FKH_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\78.png" id="FKH_78" data-flag="@X" onclick="openSidebar('FKH_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\108.png" id="FKH_108" data-flag="@X" onclick="openSidebar('FKH_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\98.png" id="FKH_98" data-flag="@X" onclick="openSidebar('FKH_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\92.png" id="FKH_92" data-flag="@X" onclick="openSidebar('FKH_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\124.png" id="FKH_124" data-flag="@X" onclick="openSidebar('FKH_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\70.png" id="FKH_70" data-flag="@X" onclick="openSidebar('FKH_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\76.png" id="FKH_76" data-flag="@X" onclick="openSidebar('FKH_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\59.png" id="FKH_59" data-flag="@X" onclick="openSidebar('FKH_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\113.png" id="FKH_113" data-flag="@X" onclick="openSidebar('FKH_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\126.png" id="FKH_126" data-flag="@X" onclick="openSidebar('FKH_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\53.png" id="FKH_53" data-flag="@X" onclick="openSidebar('FKH_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\104.png" id="FKH_104" data-flag="@X" onclick="openSidebar('FKH_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\116.png" id="FKH_116" data-flag="@X" onclick="openSidebar('FKH_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\121.png" id="FKH_121" data-flag="@X" onclick="openSidebar('FKH_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\106.png" id="FKH_106" data-flag="@X" onclick="openSidebar('FKH_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\151.png" id="FKH_151" data-flag="@X" onclick="openSidebar('FKH_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\140.png" id="FKH_140" data-flag="@X" onclick="openSidebar('FKH_140',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\68_back.png" alt="sets\FKH-files\img\68_front.png" id="FKH_68" data-flag="@XD" onclick="openSidebar('FKH_68',false)"><button class="flip-btn" onclick="imgFlip('FKH_68')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\152.png" id="FKH_152" data-flag="@X" onclick="openSidebar('FKH_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\18.png" id="FKH_18" data-flag="@X" onclick="openSidebar('FKH_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\37.png" id="FKH_37" data-flag="@X" onclick="openSidebar('FKH_37',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\66_back.png" alt="sets\FKH-files\img\66_front.png" id="FKH_66" data-flag="@XD" onclick="openSidebar('FKH_66',false)"><button class="flip-btn" onclick="imgFlip('FKH_66')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\39.png" id="FKH_39" data-flag="@X" onclick="openSidebar('FKH_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\40.png" id="FKH_40" data-flag="@X" onclick="openSidebar('FKH_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\41.png" id="FKH_41" data-flag="@X" onclick="openSidebar('FKH_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\38.png" id="FKH_38" data-flag="@X" onclick="openSidebar('FKH_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\89.png" id="FKH_89" data-flag="@X" onclick="openSidebar('FKH_89',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\67_back.png" alt="sets\FKH-files\img\67_front.png" id="FKH_67" data-flag="@XD" onclick="openSidebar('FKH_67',false)"><button class="flip-btn" onclick="imgFlip('FKH_67')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\153.png" id="FKH_153" data-flag="@X" onclick="openSidebar('FKH_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\154.png" id="FKH_154" data-flag="@X" onclick="openSidebar('FKH_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\155.png" id="FKH_155" data-flag="@X" onclick="openSidebar('FKH_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\42.png" id="FKH_42" data-flag="@X" onclick="openSidebar('FKH_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\45.png" id="FKH_45" data-flag="@X" onclick="openSidebar('FKH_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\43.png" id="FKH_43" data-flag="@X" onclick="openSidebar('FKH_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\46.png" id="FKH_46" data-flag="@X" onclick="openSidebar('FKH_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\44.png" id="FKH_44" data-flag="@X" onclick="openSidebar('FKH_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\165.png" id="FKH_165" data-flag="@X" onclick="openSidebar('FKH_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\69.png" id="FKH_69" data-flag="@X" onclick="openSidebar('FKH_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\31.png" id="FKH_31" data-flag="@X" onclick="openSidebar('FKH_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\13_back.png" alt="sets\FKH-files\img\13_front.png" id="FKH_13" data-flag="@XD" onclick="openSidebar('FKH_13',false)"><button class="flip-btn" onclick="imgFlip('FKH_13')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\12_back.png" alt="sets\FKH-files\img\12_front.png" id="FKH_12" data-flag="@XD" onclick="openSidebar('FKH_12',false)"><button class="flip-btn" onclick="imgFlip('FKH_12')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\169.png" id="FKH_169" data-flag="@X" onclick="openSidebar('FKH_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\168.png" id="FKH_168" data-flag="@X" onclick="openSidebar('FKH_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\172.png" id="FKH_172" data-flag="@X" onclick="openSidebar('FKH_172',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\11_back.png" alt="sets\FKH-files\img\11_front.png" id="FKH_11" data-flag="@XD" onclick="openSidebar('FKH_11',false)"><button class="flip-btn" onclick="imgFlip('FKH_11')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\166.png" id="FKH_166" data-flag="@X" onclick="openSidebar('FKH_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\167.png" id="FKH_167" data-flag="@X" onclick="openSidebar('FKH_167',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\FKH-files\img\10_back.png" alt="sets\FKH-files\img\10_front.png" id="FKH_10" data-flag="@XD" onclick="openSidebar('FKH_10',false)"><button class="flip-btn" onclick="imgFlip('FKH_10')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\35.png" id="FKH_35" data-flag="@X" onclick="openSidebar('FKH_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\25.png" id="FKH_25" data-flag="@X" onclick="openSidebar('FKH_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\28.png" id="FKH_28" data-flag="@X" onclick="openSidebar('FKH_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\29.png" id="FKH_29" data-flag="@X" onclick="openSidebar('FKH_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\24.png" id="FKH_24" data-flag="@X" onclick="openSidebar('FKH_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\27.png" id="FKH_27" data-flag="@X" onclick="openSidebar('FKH_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\145.png" id="FKH_145" data-flag="@X" onclick="openSidebar('FKH_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\177.png" id="FKH_177" data-flag="@X" onclick="openSidebar('FKH_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\178.png" id="FKH_178" data-flag="@X" onclick="openSidebar('FKH_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\184.png" id="FKH_184" data-flag="@X" onclick="openSidebar('FKH_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\181.png" id="FKH_181" data-flag="@X" onclick="openSidebar('FKH_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\182.png" id="FKH_182" data-flag="@X" onclick="openSidebar('FKH_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\180.png" id="FKH_180" data-flag="@X" onclick="openSidebar('FKH_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\179.png" id="FKH_179" data-flag="@X" onclick="openSidebar('FKH_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\185.png" id="FKH_185" data-flag="@X" onclick="openSidebar('FKH_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\183.png" id="FKH_183" data-flag="@X" onclick="openSidebar('FKH_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\30.png" id="FKH_30" data-flag="@X" onclick="openSidebar('FKH_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\FKH-files\img\176.png" id="FKH_176" data-flag="@X" onclick="openSidebar('FKH_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="FKH_e" data-flag="@E" onclick="openSidebar('FKH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="FKH_er" data-flag="@E" onclick="openSidebar('FKH_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>
