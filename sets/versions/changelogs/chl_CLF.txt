@@ -1,4 +1,282 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+CC02 Iron Axe added.
+CW04 Thea, Dutiful Sibling added.
+CW09 Azama, Aloof Retainer added.
+CW10 Wrys, Valiant Curate added.
+CW15 Three of Swords added.
+CW16 War Planning added.
+CW19 Lucina's Response added.
+CB12 Raigh, Standoffish Orphan added.
+CG09 Patty, Headstrong Prowler added.
+CG17 Shattered Assault added.
+CC01 Brass Katana added.
+CC03 Steel Lance added.
+CR19 Wolt, Uncertain Retainer added.
+
+CW04 removed.
+CW09 removed.
+CW10 removed.
+CW15 removed.
+CW16 Your Temple Is Under Attack removed.
+CW17 removed.
+CW19 removed.
+CU17 Torch Staff removed.
+CB12 Lysithea, Young Prodigy removed.
+CB17 removed.
+CR16 removed.
+CR19 Bernadetta, the Absent removed.
+CG09 Linhardt of House Hervring removed.
+CG16 removed.
+CG17 Broken Wings removed.
+
+CW06 Karin and Hermes
+rules_text: Flying
+Follow up [i](Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that's tapped and attacking. Sacrifice the token at end of turn.)[/i] => Flying
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i]
+
+CW07 Amelia, Silva Orphan
+rules_text: When Amelia enters, if an opponent controls more lands than you, search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.
+Follow up [i](Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that's tapped and attacking. Sacrifice the token at end of turn.)[/i] => When Amelia enters, if an opponent controls more lands than you, search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i]
+
+CW08 Bors, of Great Resolve
+cost: {2}{W} => {3}{W}
+rules_text: Equipped creatures you control get +1/+1.
+Armory [i](If this is your commander, you can have a Weapon as a second commander.)[/i] => This spell costs {1} less to cast for each opponent who lost life this turn.
+Equipped and enchanted creatures you control get +1/+1.
+
+CW13 Alois, Right-Hand Man
+rules_text: Alois has first strike as long as he's equipped. => Alois has first strike as long as he's enchanted or equipped.
+
+CW14 Prison Term
+rules_text: Enchant creature
+Enchanted creature can't attack or block. It loses all abilities and has “Whenever two or more creatures you control deal combat damage to Prison Term's controller, that player sacrifices it and draws a card.” => Enchant creature
+Enchanted creature can't attack or block and loses all abilities.
+Whenever two or more creatures deal combat damage to you, sacrifice this Aura and draw a card.
+
+CW18 Vengeful Prerogative
+
+CU01 Sumia, Maid of Flowers
+rules_text: Flying
+Sumia can't be blocked as long as she's attacking alone or you've cast a noncreature spell this turn. => Flying
+Whenever you cast a noncreature spell or Sumia attacks alone, she can't be blocked this turn.
+
+CU02 Lena of Macedon
+
+CU03 Lute, Naturally Curious
+
+CR05 Erk, Solemn Mage
+
+CU05 Seth, Clever Protector
+
+CU06 Hinoka, Sibling Seeker
+rules_text: Flying, vigilance
+Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]
+Armory [i](If this is your commander, you can have a Weapon as a second commander.)[/i] => Flying
+pt: 3/3 => 3/2
+
+CU07 Saias, Royal Bishop
+
+CU08 Iago, Garon's Muse
+rules_text: When this creature enters, return up to one target instant or sorcery card from a graveyard to its owner's hand. When a card is put into an opponent's hand this way, put three +1/+1 counters on this creature. => When this creature enters, return up to one target instant or sorcery card from a graveyard to its owner's hand. If you don't own that card, put three +1/+1 counters on this creature.
+
+CU09 Jill, Mistress of Wyverns
+
+CU10 Training Dummy
+
+CU11 Appeal to the People
+
+CU12 Tactical Interception
+rules_text: Counter target spell unless its controller pays {2}. If a creature spell or Skill is countered this way, draw a card, then discard a card. => Counter target creature or Skill spell unless its controller pays {4}.
+
+CU13 Domineering Prerogative
+
+CU14 Knoll's Knowledge
+rules_text: Recruit [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+Target player draws three cards. => This spell costs {1} less to cast for each opponent who lost life this turn.
+Target player draws three cards.
+
+CU15 Subtle Rapport
+
+CU16 Staff: Rescue
+
+CU18 Forced Retreat
+
+CU19 Hanneman, Avid Scholar
+
+CB01 Saizo, Cold and Deadly
+
+CB02 Loathesome Revenant
+rules_text: This creature enters tapped.
+At the beginning of your second main phase, if a creature died this turn, you may pay {1}{B}. If you do, return this card from your graveyard to your hand. => This creature enters tapped.
+{3}{B}: Return this card from your graveyard to your hand. This ability costs {1} less to activate for each opponent who lost life this turn.
+
+CB03 Henry, Giddy Caster
+
+CB04 Matthew, Opportunistic Spy
+rules_text: When Matthew dies, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+Follow up [i](Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that's tapped and attacking. Sacrifice the token at end of turn.)[/i] => Whenever Matthew deals combat damage to a player, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i]
+
+CB05 Salem, Newly Disillusioned
+
+CB06 Mogall
+
+CB08 Lifis, Young Leader
+rules_text: Sacrifice a creature: You gain 2 life and draw a card. Activate only if Lifis is equipped and only once each turn.
+Armory [i](If this is your commander, you can have a Weapon as a second commander.)[/i] => Sacrifice a creature: You gain 2 life and draw a card. Activate only if Lifis is enchanted or equipped and only once each turn.
+
+CB09 Hans, the Redeemed
+rules_text: Recruit [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+When Hans enters, each opponent sacrifices a nontoken creature and you sacrifice a creature. => This spell costs {1} less to cast for each opponent who lost life this turn.
+When Hans enters, each opponent sacrifices a nontoken creature and you sacrifice a creature.
+
+CB10 Valter, the Moonstone
+
+CB11 Fell Contract
+rules_text: Recruit [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+Exile target creature. You gain 3 life. => This spell costs {1} less to cast for each opponent who lost life this turn.
+Exile target creature. You gain 3 life.
+
+CB13 Emmeryn's Martydom
+cost: {1}{B} => {B}
+rules_text: For each player, choose up to one target creature that player controls. That player may pay 5 life. If they don't, they sacrifice the chosen creature. => Ambush {1}{B} [i](When you cast this spell, if its ambush cost was paid, copy it for each opponent besides the one it targets. The copy targets them and a permanent they control.)[/i]
+Target opponent sacrifices target creature they control unless they pay 5 life.
+
+CB14 Pyrrhic Victory
+
+CB15 Tharja, Dubious Recluse
+
+CB16 Glancing Blow
+rules_text: Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to the battlefield tapped. If it has level up, put two experience counters on it.” => Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to the battlefield tapped. If it has level up, put two level counters on it.”
+
+CB18 Maniacal Prerogative
+
+CB19 Dark Magic
+rules_text: Chose one —
+• Target creature gets -0/-99 until end of turn.
+• Return target creature card from your graveyard to the battlefield. => Choose one —
+• Target creature gets -0/-99 until end of turn. If that creature would die this turn, exile it instead.
+• Return target creature card from your graveyard to the battlefield.
+
+CR01 Determined Maurader
+rules_text: Prowess => Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+
+CR02 Pandreo, Carefree Priest
+
+CR04 Mae, Bundle of Energy
+type: Legendary Creature => Legendary Creature — Human Wizard
+
+CU04 Cherche and Minerva
+rules_text: Flying => Flying, vigilance
+Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]
+pt: 2/3 => 2/2
+
+CR06 Ogma, Ruthless Bodyguard
+rules_text: Whenever Ogma attacks, create a Treasure token. If he's equipped, create two of those tokens instead.
+Armory [i](If this is your commander, you can have a Weapon as a second commander.)[/i] => Whenever Ogma attacks, create a Treasure token. If he's enchanted or equipped, create two of those tokens instead.
+
+CR07 Shura, Nohrian Thief
+rules_text: Recruit [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+When Shura enters, discard up to two cards, then draw that many cards. If you discarded a card that's an instant, sorcery, or that has a Skill, create a Treasure token. => When Shura enters, discard X cards, draw X cards, and create X Treasure tokens, where X is the number of opponents that lost life this turn. [i](Treasures tokens are artifacts with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+CR08 Dieck, Able Mentor
+
+CR09 Band of Brigands
+
+CR10 Sue of the Kutolah
+rules_text: When this creature enters, you seize the objective and create a Treasure token.
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i] => When this creature enters, you seize the objective and create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i]
+
+CR11 Bolganone
+rules_text: Recruit [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+Bolganone deals 6 damage to target creature. => This spell costs {1} less to cast for each opponent who lost life this turn.
+Bolganone deals 6 damage to target creature.
+
+CR14 Ilyana, Voracious Mage
+
+CR13 Arcfire
+
+CR12 Fire Tail
+cost: {2}{R} => {1}{R}
+rules_text: Fire Tail deals 2 damage to target opponent and each creature they control. => Ambush {2}{R} [i](When you cast this spell, if its ambush cost was paid, copy it for each opponent besides the one it targets. The copy targets them.)[/i]
+Fire Tail deals 2 damage to target opponent and each creature they control.
+
+CR15 Basilio, Master-at-Arms
+rules_text: Equip abilities you activate cost {1} less to activate for each creature you control with power 4 or greater.
+Follow up [i](Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that's tapped and attacking. Sacrifice the token at end of turn.)[/i] => Aura and Equipment spells you cast cost {1} less to cast for each creature you control with power 4 or greater.
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i]
+
+CR17 Devilish Prerogative
+
+CR18 In the Heat of Battle
+rules_text: Choose one —
+• Destroy target artifact. If it was an Equipment, equipped creature can't block this turn.
+• Target attacking creature gets +2/+0 until end of turn for each player being attacked. => Choose one —
+• Destroy target artifact. Enchanted and/or equipped creatures can't block this turn.
+• Target attacking creature gets +2/+0 until end of turn for each player being attacked.
+
+CG01 Sophia, Half-Dragon Seer
+
+CG02 Natasha, Fleeing Healer
+
+CG03 Warren, of Simple Mind
+
+CG04 Dorcas, Dutiful Lover
+
+CG05 Garcia, Retired Fighter
+rules_text: Garcia gets +2/+2 for each Aura and Equipment attached to him.
+Armory [i](If this is your commander, you can have a Weapon as a second commander.)[/i] => Garcia gets +2/+2 for each Aura and Equipment attached to him.
+
+CG06 Dedue, His Highness' Ward
+
+CG07 Erstwhile Entombed
+
+CG08 Keaton, Wolfskin Leader
+
+CG10 Perceval, Loyal to a Fault
+rules_text: Trample
+When Perceval enters, you seize the objective.
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i] => When Perceval enters, you seize the objective.
+Perceval can't be blocked by more than one creature.
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i]
+
+CG11 Gheb, Giggling General
+
+CG12 Forested Ambush
+
+CG13 Emotional Support
+
+CG14 Violent Prerogative
+
+CG15 Rolf, Aspiring Merc
+
+CG18 Setsuna's Discoveries
+rules_text: Recruit [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle. => This spell costs {1} less to cast for each opponent who lost life this turn.
+Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.
+
+CG19 Barracks Preparation
+rules_text: Look at the top five cards of your library. You may reveal up to one creature card, up to one card with a skill, and up to one land card from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order. => Look at the top five cards of your library. You may reveal up to one creature card, up to one card with a Skill, and up to one land card from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.
+
+CW02 Hortensia, Crude Princess
+
+CB07 Shamir, Unrepentant
+rules_text: Recruit [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+When Shamir enters, destroy up to one target creature that was dealt damage this turn. => Flash
+When Shamir enters, destroy up to one target creature that was dealt damage this turn.
+
+CR03 Lon'qu, of Reckless Pride
+rules_text: During your turn, this creature has first strike.
+Follow up [i](Whenever this creature attacks the opponent with the most life, create a nonlegendary token copy that's tapped and attacking. Sacrifice the token at end of turn.)[/i] => During your turn, this creature has first strike.
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i]
+pt: 2/1 => 2/2
+
+
+VERSION 2 CHANGELOG
 ====================
 
 No changes.
