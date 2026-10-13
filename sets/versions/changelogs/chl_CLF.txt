@@ -1,4 +1,356 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+CU16 Rescue Stave added.
+CB02 Risen Revenant added.
+CG05 Echidna, Resistance Leader added.
+CR19 Wolt, Frazzled Retainer added.
+CC04 Thief Sword added.
+CC07 Command Tower added.
+CC06 Sonic Sword added.
+CC08 Castle Courtyard added.
+CC0 Lord's Emblem added.
+
+CU16 Staff: Rescue removed.
+CB02 Loathesome Revenant removed.
+CG05 Garcia, Retired Fighter removed.
+CR19 Wolt, Uncertain Retainer removed.
+
+CC02 Iron Axe
+artist: Matsya Das => Serdar Yildiz
+
+CW01 Florina, Anxious Cavalier
+
+CW04 Thea, Dutiful Sibling
+rules_text: Whenever this creature attacks, put a +1/+1 counter on target attacking creature you control with flying. => Whenever Thea attacks, put a +1/+1 counter on target attacking creature you control with flying.
+flavor_text: [i]She would much rather worry about the well-being of her sisters than herself.[/i] => [i]“You're my only little sister. I'll...I'll always care for you.”[/i]
+
+CW05 Unceasing Bonewalker
+rules_text: This creature gets +1/+2 and has vigilance as long as it's equipped or enchanted. => This creature gets +1/+2 and has vigilance as long as it's enchanted or equipped.
+
+CW06 Karin and Hermes
+pt: 2/2 => 2/3
+
+CW07 Amelia, Silva Orphan
+
+CW08 Bors, of Great Resolve
+cost: {3}{W} => {2}{W}
+rules_text: This spell costs {1} less to cast for each opponent who lost life this turn.
+Equipped and enchanted creatures you control get +1/+1. => Each enchanted or equipped creature you control gets +1/+1.
+flavor_text: [i]“Causing a rebellion after Lord Hector's death?! That is inexcusable!”[/i] => [i]“Those Verdane dogs have had their run of our land for long enough!”[/i]
+artist: nekobayashi => racecarart
+
+CW09 Azama, Aloof Retainer
+rules_text: Whenever another creature you control enters or dies, you gain 1 life. If this is the second time this ability has resolved this turn, put a +1/+1 counter on this creature. => Whenever another creature you control enters or dies, you gain 1 life. If this is the second time this ability has resolved this turn, put a +1/+1 counter on Azama.
+
+CW11 Shanna, Cheerful Flier
+rules_text: Flying
+When Shanna enters, create a blue 2/2 Pegasus Knight creature token with flying, then you seize the objective.
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i] => Flying
+When Shanna enters, create a 2/2 blue Pegasus Knight creature token with flying, then you seize the objective.
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i]
+
+CW14 Prison Term
+rules_text: Enchant creature
+Enchanted creature can't attack or block and loses all abilities.
+Whenever two or more creatures deal combat damage to you, sacrifice this Aura and draw a card. => Enchant creature
+Enchanted creature can't attack or block, and it loses all abilities.
+Whenever two or more creatures deal combat damage to you, sacrifice this Aura and draw a card.
+
+CW15 Three of Swords
+rules_text: Ambush {3}{W} [i](When you cast this spell, if its ambush cost was paid, copy it for each opponent besides the one it targets. The copy targets them and a permanent they control.)[/i]
+Choose target creature controlled by target opponent. Three of Swords deals damage to that creature equal to 2 plus the number of Equipment and/or Auras you control. => Ambush {3}{W} [i](When you cast this spell, if its ambush cost was also paid, copy it for each opponent besides the one it targets. The copy targets a permanent they control.)[/i]
+Three of Swords deals 2 plus X damage to target attacking or blocking creature an opponent controls, where X is the number of Auras and Equipment you control.
+
+CW16 War Planning
+rules_text: Choose one —
+• Creatures you control gain indestructible until end of turn.
+• Each player may draw a card. For each opponent who did, draw a card. => Choose one —
+• Creatures you control get +1/+0 and gain indestructible until end of turn.
+• Each player may draw a card. For each opponent who did, draw a card.
+flavor_text: [i][/i] => [i]“He'll pick the right path. I won't have to tell him anything. All we have to do is believe in Ike and follow him...to the end.” — Titania[/i]
+
+CW18 Vengeful Prerogative
+
+CW19 Lucina's Response
+
+CU01 Sumia, Maid of Flowers
+rules_text: Flying
+Whenever you cast a noncreature spell or Sumia attacks alone, she can't be blocked this turn. => Flying
+Whenever you cast a noncreature spell and whenever Sumia attacks alone, she can't be blocked this turn.
+flavor_text: [i]“You can learn a lot about this world from a pegasus's back. I see new things every day.”[/i] => [i]“You can learn a lot about this world from a pegasus' back. I see new things every day.”[/i]
+
+CU02 Lena of Macedon
+
+CU03 Lute, Naturally Curious
+
+CU05 Seth, Clever Protector
+flavor_text: [i][/i] => [i]“My only wish is to serve and protect the two of you...”[/i]
+
+CU08 Iago, Garon's Muse
+rules_text: When this creature enters, return up to one target instant or sorcery card from a graveyard to its owner's hand. If you don't own that card, put three +1/+1 counters on this creature. => When Iago enters, return up to one target instant or sorcery card from a graveyard to its owner's hand. If you don't own that card, put three +1/+1 counters on this creature.
+
+CU09 Jill, Mistress of Wyverns
+
+CU11 Appeal to the People
+rules_text: Counter target spell. Create a 1/1 white Human Soldier creature token with “This creature can't block nontoken creatures.” => Counter target spell. Create a 1/1 white Human Soldier creature token with “This token can't block nontoken creatures.”
+
+CU12 Tactical Interception
+
+CU13 Domineering Prerogative
+
+CU14 Knoll's Knowledge
+rules_text: This spell costs {1} less to cast for each opponent who lost life this turn.
+Target player draws three cards. => Recruitable [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+Target player draws three cards.
+flavor_text: [i]“I will speak frankly. This is something that Prince Lyon does not know. Something that no one should know.”[/i] => [i]“I will speak frankly. This is something that Prince Lyon does not know. Something that no one should know.”—Knoll[/i]
+
+CU15 Subtle Rapport
+flavor_text: [i]“A real steady hand, that Marianne. It's nice to see her laugh... Sure, she was laughing at me. But how can I get mad when she looks so dang cute?” — Hilda[/i] => [i]“A real steady hand, that Marianne. It's nice to see her laugh... Sure, she was laughing at me. But how can I get mad when she looks so dang cute?”—Hilda[/i]
+
+CU18 Forced Retreat
+
+CB01 Saizo, Cold and Deadly
+
+CB04 Matthew, Opportunistic Spy
+artist: gomomo00 => steel-nageyari
+
+CB05 Salem, Newly Disillusioned
+rules_text: Level up {2} [i]({2}: Put a level counter on this. Level up only as a sorcery.)[/i]
+Whenever Salem attacks, each opponent loses 1 life for each level counter on him and you gain that much life. => Level up {2} [i]({2}: Put a level counter on this. Level up only as a sorcery.)[/i]
+Whenever Salem attacks, defending player loses 1 life for each level counter on him and you gain that much life.
+pt: 3/3 => 3/2
+
+CB06 Mogall
+rules_text: Flying
+When this creature dies, create a 2/2 black Eye Bat creature token with flying and “This creature can't block nontoken creatures.” => Flying
+When this creature dies, create a 2/2 black Eye Bat creature token with flying and “This token can't block nontoken creatures.”
+
+CB08 Lifis, Young Leader
+
+CB09 Hans, the Redeemed
+rules_text: This spell costs {1} less to cast for each opponent who lost life this turn.
+When Hans enters, each opponent sacrifices a nontoken creature and you sacrifice a creature. => Recruitable [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+When Hans enters, each opponent sacrifices a nontoken creature and you sacrifice a creature.
+flavor_text: [i][/i] => [i]“Listen up, cannon fodder! We have a direct order from King Garon. He says kill ‘em all!”[/i]
+
+CB10 Valter, the Moonstone
+
+CB11 Fell Contract
+rules_text: This spell costs {1} less to cast for each opponent who lost life this turn.
+Exile target creature. You gain 3 life. => Recruitable [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+Exile target creature. You gain 3 life.
+
+CB13 Emmeryn's Martydom
+cost: {B} => {1}{B}
+rules_text: Ambush {1}{B} [i](When you cast this spell, if its ambush cost was paid, copy it for each opponent besides the one it targets. The copy targets them and a permanent they control.)[/i]
+Target opponent sacrifices target creature they control unless they pay 5 life. => Ambush {1}{B} [i](When you cast this spell, if its ambush cost was also paid, copy it for each opponent besides the one it targets. The copy targets a creature they control.)[/i]
+Destroy target creature an opponent controls unless that player pays 4 life, discards a card, and sacrifices another creature.
+flavor_text: [i][/i] => [i]“...How disgustingly noble. And so lovely a fall! Here I thought death to be an ugly thing.”—Gangrel[/i]
+artist: itou misei => friedfriedchicken
+
+CB14 Pyrrhic Victory
+
+CB16 Glancing Blow
+
+CB18 Maniacal Prerogative
+rules_text: Enchant creature
+As this Aura enters, choose a player.
+Enchanted creature gets +2/+2, has deathtouch, and attacks the chosen player each combat if able.
+Whenever enchanted creature attacks, target player mills three cards. => Enchant creature
+As this Aura enters, choose a player.
+Enchanted creature gets +2/+2, has deathtouch, and attacks the chosen player each combat if able.
+Whenever enchanted creature attacks, each player mills three cards.
+
+CB19 Dark Magic
+cost: {3}{B}{B} => {2}{B}{B}
+rules_text: Choose one —
+• Target creature gets -0/-99 until end of turn. If that creature would die this turn, exile it instead.
+• Return target creature card from your graveyard to the battlefield. => Choose one —
+• Target creature gets -0/-99 until end of turn. If it would die this turn, exile it instead.
+• Return target creature card from your graveyard to the battlefield.
+flavor_text: [i][/i] => [i]Pelleas, a spirit charmer, believed he could use the power of his blood pact for good. [/i]
+artist: nargesart => picinic
+
+CR02 Pandreo, Carefree Priest
+
+CU04 Cherche and Minerva
+rules_text: Flying, vigilance
+Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i] => Flying, vigilance; ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]
+
+CR06 Ogma, Ruthless Bodyguard
+rules_text: Whenever Ogma attacks, create a Treasure token. If he's enchanted or equipped, create two of those tokens instead. => Whenever Ogma attacks, you may sacrifice an artifact. When you do, destroy target artifact. When you don't, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+flavor_text: [i]“The battle field is the only world I know!”[/i] => [i]“The battlefield is the only world I know!”[/i]
+
+CR07 Shura, Nohrian Thief
+cost: {3}{R} => {2}{R}
+rules_text: When Shura enters, discard X cards, draw X cards, and create X Treasure tokens, where X is the number of opponents that lost life this turn. [i](Treasures tokens are artifacts with “{T}, Sacrifice this token: Add one mana of any color.”)[/i] => Menace [i](This creature can't be blocked except by two or more creatures.)[/i]
+When Shura enters, discard up to X cards, then draw that many cards. X is the number of opponents that lost life this turn.
+
+CR08 Dieck, Able Mentor
+rules_text: Trample
+As long as you control another creature with power 4 or greater, Dieck has follow up. [i](Whenever he attacks the opponent with the most life, create a nonlegendary token copy that's tapped and attacking. Sacrifice the token at end of combat.)[/i] => Trample
+As long as you control another creature with power 4 or greater, Dieck has follow up. [i](Whenever he attacks the opponent with the most life, create a nonlegendary token copy that's tapped and attacking. The token's sacrificed at end of combat.)[/i]
+flavor_text: [i][/i] => [i]“Did you see me just now!? I took on three guys with one swing...”[/i]
+
+CR10 Sue of the Kutolah
+rules_text: When this creature enters, you seize the objective and create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i] => When Sue enters, you seize the objective and create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i]
+flavor_text: [i][/i] => [i]“Sound of the wind... Smell of the grass...”[/i]
+
+CR11 Bolganone
+rules_text: This spell costs {1} less to cast for each opponent who lost life this turn.
+Bolganone deals 6 damage to target creature. => Recruitable [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+Bolganone deals 6 damage to target creature.
+flavor_text: [i]“See if you can match me!” — Erk, Etrurian mage[/i] => [i]“See if you can match me!” —Erk[/i]
+
+CR13 Arcfire
+flavor_text: [i]Robin wasn't sure where they'd come from. They weren't sure what the future held. They only knew for certain that they'd never back down from a challenge.[/i] => [i]“Aren't you the enemy tactician? What sort of fool strategist puts herself at the fore of the battle?”—Saias
+“The kind who knows she'll win.”—Robin[/i]
+
+CR12 Fire Tail
+rules_text: Ambush {2}{R} [i](When you cast this spell, if its ambush cost was paid, copy it for each opponent besides the one it targets. The copy targets them.)[/i]
+Fire Tail deals 2 damage to target opponent and each creature they control. => Ambush {2}{R} [i](When you cast this spell, if its ambush cost was also paid, copy it for each opponent besides the one it targets. The copy targets them and a permanent they control.)[/i]
+Fire Tail deals 2 damage to target opponent and each creature they control.
+flavor_text: [i][/i] => [i]“This will hardly be a battle at all. Simply an end. Perish, flawed one.”—Ashera[/i]
+
+CR15 Basilio, Master-at-Arms
+rules_text: Aura and Equipment spells you cast cost {1} less to cast for each creature you control with power 4 or greater.
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i] => Aura and Equipment spells you cast cost {1} less to cast for each other creature you control with power 4 or greater.
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i]
+flavor_text: [i][/i] => [i]“Let the dead whine about their fate... As long as I draw breath, I choose to keep fighting!”[/i]
+
+CR17 Devilish Prerogative
+
+CR18 In the Heat of Battle
+rules_text: Choose one —
+• Destroy target artifact. Enchanted and/or equipped creatures can't block this turn.
+• Target attacking creature gets +2/+0 until end of turn for each player being attacked. => Choose one —
+• Destroy up to one target artifact. Enchanted or equipped creatures can't block this turn.
+• Target creature gets +2/+0 until end of turn for each player being attacked.
+flavor_text: [i][/i] => [i]“Prepare yourself for death while you still can.”—Edelgard[/i]
+
+CG01 Sophia, Half-Dragon Seer
+
+CG06 Dedue, His Highness' Ward
+
+CG07 Erstwhile Entombed
+
+CG08 Keaton, Wolfskin Leader
+
+CG10 Perceval, Loyal to a Fault
+
+CG11 Gheb, Giggling General
+cost: {5}{G} => {6}{G}
+rules_text: When Gheb enters, create three 1/1 white Human Soldier creature tokens with “This creature can't block nontoken creatures.” => When Gheb enters, create four 1/1 white Human Soldier creature tokens with “This token can't block nontoken creatures.”
+
+CG12 Forested Ambush
+flavor_text: [i][/i] => [i]“A ninja's shuriken may not cut deep, but it can sap you of your strength. Your death need not come all at once.” — Kaze[/i]
+
+CG13 Emotional Support
+
+CG14 Violent Prerogative
+
+CG15 Rolf, Aspiring Merc
+flavor_text: [i][/i] => [i]“Hey! I'm not small! I'm a dangerous mercenary!”[/i]
+
+CG17 Shattered Assault
+rules_text: Ambush {2}{G} [i](When you cast this spell, if its ambush cost was paid, copy it for each opponent besides the one it targets. The copy targets them and a permanent they control.)[/i]
+Choose target opponent. Destroy target artifact, enchantment, or creature with flying they control. => Ambush {2}{G} [i](When you cast this spell, if its ambush cost was also paid, copy it for each opponent besides the one it targets. The copy targets a permanent they control.)[/i]
+Destroy target artifact, enchantment, or creature with flying an opponent controls.
+artist: Kieran Yanner => racecarart
+
+CG18 Setsuna's Discoveries
+rules_text: This spell costs {1} less to cast for each opponent who lost life this turn.
+Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle. => Recruitable [i](This spell costs {1} less to cast for each opponent who lost life this turn.)[/i]
+Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.
+flavor_text: [i][/i] => [i]“Please don't be bait for a trap... Please don't be bait for a trap...”[/i]
+
+CG19 Barracks Preparation
+flavor_text: [i][/i] => [i]“Hmm, maybe ‘You can't spell ‘victory' without ‘Vaike'!' Oh yeah, I like that one...”[/i]
+
+CB07 Shamir, Unrepentant
+rules_text: Flash
+When Shamir enters, destroy up to one target creature that was dealt damage this turn. => Flash
+When Shamir enters, for each player, destroy up to one target creature that player controls that was dealt damage this turn.
+flavor_text: [i]“Technique never betrays.”[/i] => [i]“Weeds must be cut at the root, like tyranny and vice.”[/i]
+
+CR03 Lon'qu, of Reckless Pride
+rules_text: During your turn, this creature has first strike.
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i] => During your turn, Lon'qu has first strike.
+Follow up [i](Whenever this creature attacks, create a nonlegendary token copy that's tapped and attacking an opponent with the most life. The token's sacrificed at end of turn.)[/i]
+flavor_text: [i][/i] => [i]“Most warriors never learn their limits.”[/i]
+
+CC01 Brass Katana
+flavor_text: [i][/i] => [i]“I need a prize for Lady Sakura! Too chicken? That's fine—I'll just come and take it from you!”—Hana[/i]
+
+CC03 Steel Lance
+
+CW03 Calill, Narcissist Sage
+rules_text:  => Lifelink
+artist: crimsonfire3 => checkuu
+
+CW10 Wrys, Valiant Curate
+
+CW12 Sakura, Timid Princess
+cost: {5}{W} => {4}{W}
+artist: cheesecake => kuri forseti
+
+CW13 Alois, Right-Hand Man
+pt: 3/3 => 3/2
+artist: Gokssik => filipe_sca
+
+CR05 Erk, Solemn Mage
+
+CU06 Hinoka, Sibling Seeker
+
+CU07 Saias, Royal Bishop
+cost: {3}{U} => {1}{U}
+rules_text: When this creature enters, look at target player's hand. => When Saias enters, look at each opponent's hand.
+pt: 3/3 => 2/1
+
+CU10 Training Dummy
+
+CU19 Hanneman, Avid Scholar
+rules_text: {T}: Untap target noncreature permanent. => {T}: Untap target permanent. Activate only as a sorcery.
+flavor_text: [i]“. . . This wouldn't have happened in my youth!”[/i] => [i]“...This wouldn't have happened in my youth!”[/i]
+
+CB03 Henry, Giddy Caster
+
+CB12 Raigh, Standoffish Orphan
+
+CB15 Tharja, Dubious Recluse
+artist: cheppo => thetikhi
+
+CR01 Determined Maurader
+flavor_text: [i][/i] => [i]“I'll send your fat men and their fat-man armor sailing through the sky!”[/i]
+
+CR04 Mae, Bundle of Energy
+
+CR09 Band of Brigands
+flavor_text: [i][/i] => [i]“A cocky fool is an easy target. Truth is, in the end, it's the clever ones who always survive.”[/i]
+
+CR14 Ilyana, Voracious Mage
+rules_text:  => Ward—Pay 3 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)[/i]
+flavor_text: [i]“Would you promise me something? If we both live through this, will you take me for some good Hatari cooking?”[/i] => [i][/i]
+
+CG02 Natasha, Fleeing Healer
+artist: 74 (pixiv) => tamafries
+
+CG03 Warren, of Simple Mind
+
+CG04 Dorcas, Dutiful Lover
+
+CG09 Patty, Headstrong Prowler
+cost: {4}{G} => {3}{G}
+flavor_text: [i]“I can get the job done when I really feel like it.”[/i] => [i]“I'll get the job done when I really feel like it, got it?”[/i]
+pt: 4/5 => 3/4
+
+CW02 Hortensia, Crude Princess
+
+
+VERSION 3 CHANGELOG
 ====================
 
 CC02 Iron Axe added.
