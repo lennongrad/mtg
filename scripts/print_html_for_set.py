@@ -11,12 +11,9 @@ def generateHTML(code):
 	output_html_file = "sets/" + code + ".html"
 	previewing = os.path.exists(os.path.join('sets', code + '-files', 'previewed.txt'))
 	
-	with open(os.path.join('lists', 'all-sets.json'), encoding='utf-8-sig') as f:
-		data = json.load(f)
-		for s in data['sets']:
-			if s['set_code'] == code:
-				set_name = s['set_name']
-				break
+	with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:
+		raw = json.load(f)
+		set_name = raw['name']
 
 	# Start creating the HTML file content
 	html_content = '''<html>
@@ -436,13 +433,17 @@ def generateHTML(code):
 			await fetch(rootPath + '/sets/''' + code + '''-files/''' + code + '''-draft.txt')
 				.then(response => response.text())
 				.then(text => {
-					draft_file = text.replace(/},\\n\\t]/g, '}\\n\\t]');
+					draft_file = text.replace(/},\\n\\t]/g, '}\\n\\t]').replace(/"name": "\\r?\\n+/g, '"name": "').replace(/^(\\t\\d+ )\\r?\\n+/gm, '$1');
 			}).catch(error => console.error('Error:', error));
 
 			draftmancerToP1P1(draft_file);
       
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
+				if (card_list_arrayified[i].card_name)
+				{
+					card_list_arrayified[i].card_name = card_list_arrayified[i].card_name.replace(/[\\r\\n]+/g, '').trim();
+				}
 				if (card_list_arrayified[i].set == "''' + code + '''")
 				{
 					set_list_arrayified.push(card_list_arrayified[i]);
@@ -577,7 +578,7 @@ def generateHTML(code):
 			let card_images = [];
 			let mapping = true;
 
-			const draft_headers = draft_file.matchAll(/\\[(.*?)\\]/g); // match text between [ and ]
+			const draft_headers = draft_file.matchAll(/^\\[(.*?)\\]/gm); // match text between [ and ]
 			for (const result of draft_headers) {
 				if (result[1] == "CustomCards")
 					continue; // skip the CustomCards header
